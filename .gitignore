@@ -1,2 +1,4 @@
+# Ignore compiled Python files 
 *.py[cod]
+# Ignore the log file created when running the scripts 
 *.log
