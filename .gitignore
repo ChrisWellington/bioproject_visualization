@@ -2,3 +2,5 @@
 *.py[cod]
 # Ignore the log file created when running the scripts 
 *.log
+# Ignore Vim swap files.
+*.swp
