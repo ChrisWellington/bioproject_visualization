@@ -30,7 +30,7 @@ ch_format = logging.Formatter(fmt='%(name)-15s: %(levelname)-8s %(threadName)-10
 fh_format = logging.Formatter(fmt='%(asctime)s %(levelname)-8s %(threadName)-10s %(name)-15s: %(message)s', datefmt='%m-%d %H:%M:%S')
 fh.setFormatter(fh_format); logger.addHandler(fh); 
 ch.setFormatter(ch_format); logger.addHandler(ch);  
-logger.info('\n\n\n#####-----  Program to download a defined list of BioProjects launched  -----#####')
+logger.info('#####-----  Program to download a defined list of BioProjects launched  -----#####')
 
 # Instantiate objects 
 queue_result    = Queue.Queue()                                             # Results returned from efetch operations 

@@ -1,7 +1,7 @@
 # This is a module to integrate BioProject data in a database with XML outputs. Uses: 
 #   Create a GEXF file for import into Gephi from a database of nodes and edges. 
 # For GEXF, this creates meta-nodes for each organism.
-# Chris Wellington, Aug 6, 2012 
+# Chris Wellington, Dec 12, 2012 
 
 import xml.etree.cElementTree as ET     # Write out XML
 from collections import defaultdict     # Quick way to get a dictionary of lists
@@ -11,10 +11,7 @@ class gexf_create:
     "Create a GEXF graph file to import to Gephi"
 
     ###############################################
-    def __init__(self, filename, g_type, report_dates, report_values, atts_genome, atts_bp, h_genome, edges, data_stats_cols):
-        self._g_type            = g_type          # Should be either "static" or "dynamic" 
-        self._report_dates      = report_dates
-        self._report_values     = report_values 
+    def __init__(self, filename, atts_genome, atts_bp, h_genome, edges, data_stats_cols):
         self._atts_genome       = atts_genome
         self._atts_bp           = atts_bp
         self._hierarchy_genome  = h_genome
@@ -30,13 +27,11 @@ class gexf_create:
         root = ET.Element("gexf")
  
         # Start of the actual graph section. Currently dynamic.
-        graph_info = ET.SubElement(root, 'graph', {'defaultedgetype':'directed','mode':self._g_type,'timeformat':'date'})
+        graph_info = ET.SubElement(root, 'graph', {'defaultedgetype':'directed','mode':'static','timeformat':'date'})
 
         # Set the fields avaialble to the nodes. Each field goes into a separate subelement. Field names match those in the database for simplicity.
-        node_atts = ET.SubElement(graph_info, 'attributes', {'class':'node', 'type':self._g_type})
+        node_atts = ET.SubElement(graph_info, 'attributes', {'class':'node', 'type':'static'})
         gexf_atts = [
-                ('G bases',             'GigaBases',        'float'), 
-                ('T bytes',             'TeraBytes',        'float'),
                 ('genome_id',           'Genome_id',        'string'),
                 ('create_date',         'create_date',      'string'),
                 ('accno',               'Accno',            'string'),
@@ -120,25 +115,6 @@ class gexf_create:
         for att_set in self._gexf_atts:
             if ( ( att_set[0] not in self._atts_genome[bp_id] ) and ( att_set[2] == 'string' ) ):
                 ET.SubElement(attvalues_node, 'attvalue', {'for':att_set[0],'value':'Organism Overview'})
-
-        # Make attvalue nodes for all data types in the report. Do static nodes unless specified otherwise.  
-        if self._g_type == 'dynamic': 
-            i = 0
-            for daterange in self._report_dates:
-                start_date = daterange[0]
-                end_date   = daterange[1]
-                
-                if bp_id in self._report_values: 
-                    for data_type in self._report_values[bp_id]:
-                        val = str(self._report_values[bp_id][data_type][i])
-                        ET.SubElement(attvalues_node, 'attvalue', 
-                                    {'for':data_type, 'value':val, 'start':start_date, 'end':end_date})
-                i = i + 1 
-        else: 
-            if bp_id in self._report_values: 
-                for data_type in self._report_values[bp_id]:
-                    val = str(self._report_values[bp_id][data_type][-1])
-                    ET.SubElement(attvalues_node, 'attvalue', {'for':data_type, 'value':val })
         
         return genome_node 
 
@@ -155,21 +131,4 @@ class gexf_create:
         for key, value in self._atts_bp[bp_id].items():
             ET.SubElement(attvalues_node, 'attvalue', {'for':key,'value':value})
         
-        # Make attvalue nodes for all data types in the report. Do static nodes unless specified otherwise.  
-        if self._g_type == 'dynamic': 
-            i = 0
-            for daterange in self._report_dates:
-                start_date = daterange[0]
-                end_date   = daterange[1]
-                
-                if bp_id in self._report_values: 
-                    for data_type in self._report_values[bp_id]:
-                        val = str(self._report_values[bp_id][data_type][i])
-                        ET.SubElement(attvalues_node, 'attvalue', {'for':data_type, 'value':val, 'start':start_date, 'end':end_date})
-                i = i + 1 
-        else: 
-            if bp_id in self._report_values: 
-                for data_type in self._report_values[bp_id]:
-                    val = str(self._report_values[bp_id][data_type][-1])
-                    ET.SubElement(attvalues_node, 'attvalue', {'for':data_type, 'value':val })
         return bp_node 
