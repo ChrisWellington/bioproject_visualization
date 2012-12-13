@@ -3,6 +3,7 @@
 
 import Queue
 import logging 
+import os
 import lib.eutils as eutils
 import lib.bp_database as bp_database
 
@@ -10,9 +11,16 @@ import lib.bp_database as bp_database
 ###  Preliminary settings  #####################
 ################################################
 # Input and output files 
-bp_list_file            = 'bioproject_files/top-level_bps.csv'   # Top-level bioProjects to fetch recursively  
-db_file                 = 'bioproject_files/BioProjects.sqlite'  # SQLite database file 
-max_iterations          = 10                                    # Maximum depth for recursion 
+bp_data_dir         = 'bioproject_files'
+bp_list_file        = 'top-level_bps.csv'   # Top-level bioProjects to fetch recursively  
+db_file             = 'BioProjects.sqlite'  # SQLite database file 
+max_iterations      = 10                                    # Maximum depth for recursion 
+
+# Break if the specified path does not exist 
+if not os.path.exists(bp_data_dir): raise SystemExit('Fatal error: The input directory "{0}" does not exist. The directory must exist and must contain a list of starting BP ids.'.format(bp_data_dir))
+bp_list_file_path   = os.path.join(bp_data_dir, bp_list_file)       # Input path for the list of BP ids from which we start
+db_file_path        = os.path.join(bp_data_dir, db_file)            # Input path for the database 
+
 
 # Logging settings (user adjustable)
 file_loglevel       = 'INFO'    # Logging level for the file being saved 
@@ -34,7 +42,7 @@ logger.info('#####-----  Program to download a defined list of BioProjects launc
 
 # Instantiate objects 
 queue_result    = Queue.Queue()                                             # Results returned from efetch operations 
-bp_db           = bp_database.init_db(db_file, bp_list_file, queue_result)          # The database being used to save data 
+bp_db           = bp_database.init_db(db_file_path, bp_list_file_path, queue_result)          # The database being used to save data 
 efetch_bp       = eutils.eutils_download(db='bioproject', tool='efetch',   group_size=2,  max_threads=10, max_connections=20)
 esummary_genome = eutils.eutils_download(db='genome',     tool='esummary', group_size=50, max_threads=2,  max_connections=5)
 

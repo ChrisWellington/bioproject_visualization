@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2012-10-26">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="G bases" title="GigaBases" type="float"></attribute>
+      <attribute id="T bytes" title="TeraBytes" type="float"></attribute>
+      <attribute id="genome_id" title="Genome_id" type="string"></attribute>
+      <attribute id="create_date" title="create_date" type="string"></attribute>
+      <attribute id="accno" title="Accno" type="string"></attribute>
+      <attribute id="title" title="Title" type="string"></attribute>
+      <attribute id="project_type" title="Project_type" type="string"></attribute>
+      <attribute id="target_capture" title="Target_capture" type="string"></attribute>
+      <attribute id="target_material" title="Target_material" type="string"></attribute>
+      <attribute id="target_sample_scope" title="Target_scope" type="string"></attribute>
+      <attribute id="organism_name" title="Organism_name" type="string"></attribute>
+      <attribute id="organism_supergroup" title="Kingdom" type="string"></attribute>
+      <attribute id="method" title="Method" type="string"></attribute>
+      <attribute id="data_type" title="Data_type" type="string"></attribute>
+      <attribute id="SRA: Tbytes" title="SRA: Tbytes" type="float"></attribute>
+      <attribute id="GEO: Supplementary Mbytes" title="GEO: Supplementary Mbytes" type="float"></attribute>
+      <attribute id="SRA: Gbases" title="SRA: Gbases" type="float"></attribute>
+      <attribute id="GEO: Processed Mbytes" title="GEO: Processed Mbytes" type="float"></attribute>
+      <attribute id="GEO: Spots" title="GEO: Spots" type="float"></attribute>
+    </attributes>
+    <nodes>
+      <node id="9554" label="Drosophila melanogaster">
+        <attvalues>
+          <attvalue for="G bases" value="0.0"></attvalue>
+          <attvalue for="T bytes" value="0.0"></attvalue>
+          <attvalue for="genome_id" value="47"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Drosophila melanogaster"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Drosophila melanogaster"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.950764"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="285988.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="1011.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="9673.0"></attvalue>
+          <attvalue for="GEO: Spots" value="3.59719328E8"></attvalue>
+        </attvalues>
+        <viz:size value="23.410185"></viz:size>
+        <viz:position x="16.914864" y="-89.893715" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="75285" label="Drosophila melanogaster transcript sequencing">
+        <attvalues>
+          <attvalue for="G bases" value="315.0"></attvalue>
+          <attvalue for="T bytes" value="0.33"></attvalue>
+          <attvalue for="genome_id" value="7227"></attvalue>
+          <attvalue for="create_date" value="2011-10-28"></attvalue>
+          <attvalue for="accno" value="PRJNA75285"></attvalue>
+          <attvalue for="title" value="BDGP modENCODE D. melanogaster Transcriptome Sequencing"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila melanogaster"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Expression"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.33"></attvalue>
+          <attvalue for="SRA: Gbases" value="315.0"></attvalue>
+        </attvalues>
+        <viz:size value="15.215867"></viz:size>
+        <viz:position x="50.061047" y="-47.124947" z="0.0"></viz:position>
+        <viz:color r="12" g="54" b="178"></viz:color>
+      </node>
+      <node id="63467" label="Epigenomics projects for the Drosophila modENCODE Project.">
+        <attvalues>
+          <attvalue for="G bases" value="0.0"></attvalue>
+          <attvalue for="T bytes" value="0.0"></attvalue>
+          <attvalue for="genome_id" value="-1"></attvalue>
+          <attvalue for="create_date" value="2011-03-04"></attvalue>
+          <attvalue for="accno" value="PRJNA63467"></attvalue>
+          <attvalue for="title" value="Epigenomics projects for the Drosophila modENCODE Project."></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Multispecies"></attvalue>
+          <attvalue for="organism_name" value="Drosophila"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Array"></attvalue>
+          <attvalue for="data_type" value="EpigeneticMarkers"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.050764"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="83225.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="47.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="3845.0"></attvalue>
+          <attvalue for="GEO: Spots" value="1.62237392E8"></attvalue>
+        </attvalues>
+        <viz:size value="6.985083"></viz:size>
+        <viz:position x="-25.714056" y="-60.47447" z="0.0"></viz:position>
+        <viz:color r="178" g="12" b="12"></viz:color>
+      </node>
+      <node id="168994" label="Drosophila melanogaster modENCODE transcriptome data">
+        <attvalues>
+          <attvalue for="G bases" value="498.0"></attvalue>
+          <attvalue for="T bytes" value="0.44"></attvalue>
+          <attvalue for="genome_id" value="7227"></attvalue>
+          <attvalue for="create_date" value="2012-06-20"></attvalue>
+          <attvalue for="accno" value="PRJNA168994"></attvalue>
+          <attvalue for="title" value="Drosophila melanogaster Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Multiisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila melanogaster"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Array"></attvalue>
+          <attvalue for="data_type" value="Expression"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.44"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="109838.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="498.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="1595.0"></attvalue>
+          <attvalue for="GEO: Spots" value="6.094378E7"></attvalue>
+        </attvalues>
+        <viz:size value="18.187145"></viz:size>
+        <viz:position x="74.60388" y="-82.96721" z="0.0"></viz:position>
+        <viz:color r="12" g="54" b="178"></viz:color>
+      </node>
+      <node id="63463" label="Functional genomics project for the Drosophila modENCODE Project.">
+        <attvalues>
+          <attvalue for="G bases" value="0.0"></attvalue>
+          <attvalue for="T bytes" value="0.0"></attvalue>
+          <attvalue for="genome_id" value="7227"></attvalue>
+          <attvalue for="create_date" value="2011-03-04"></attvalue>
+          <attvalue for="accno" value="PRJNA63463"></attvalue>
+          <attvalue for="title" value="Functional genomics project for the Drosophila modENCODE Project."></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Multispecies"></attvalue>
+          <attvalue for="organism_name" value="Drosophila"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Array"></attvalue>
+          <attvalue for="data_type" value="Other"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.13"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="92925.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="151.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="4233.0"></attvalue>
+          <attvalue for="GEO: Spots" value="1.36538176E8"></attvalue>
+        </attvalues>
+        <viz:size value="11.289035"></viz:size>
+        <viz:position x="-1.9357784" y="-47.934772" z="0.0"></viz:position>
+        <viz:color r="12" g="178" b="178"></viz:color>
+      </node>
+      <node id="62327" label="Drosophila bipectinata">
+        <attvalues>
+          <attvalue for="G bases" value="49.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="3489"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Drosophila bipectinata"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Drosophila bipectinata"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.063695"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="69.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="8.172922"></viz:size>
+        <viz:position x="89.50907" y="88.098625" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="62313" label="Drosophila bipectinata">
+        <attvalues>
+          <attvalue for="G bases" value="20.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="42026"></attvalue>
+          <attvalue for="create_date" value="2011-10-27"></attvalue>
+          <attvalue for="accno" value="PRJNA62313"></attvalue>
+          <attvalue for="title" value="Drosophila bipectinata genome sequencing project"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila bipectinata"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Assembly"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.030058"></attvalue>
+          <attvalue for="SRA: Gbases" value="20.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.9737296"></viz:size>
+        <viz:position x="80.60593" y="111.48994" z="0.0"></viz:position>
+        <viz:color r="178" g="137" b="12"></viz:color>
+      </node>
+      <node id="73485" label="Drosophila bipectinata">
+        <attvalues>
+          <attvalue for="G bases" value="49.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="42026"></attvalue>
+          <attvalue for="create_date" value="2011-09-22"></attvalue>
+          <attvalue for="accno" value="PRJNA73485"></attvalue>
+          <attvalue for="title" value="Drosophila bipectinata Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila bipectinata"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Annotation"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.033637"></attvalue>
+          <attvalue for="SRA: Gbases" value="49.0"></attvalue>
+        </attvalues>
+        <viz:size value="7.1044946"></viz:size>
+        <viz:position x="106.446976" y="49.37326" z="0.0"></viz:position>
+        <viz:color r="12" g="178" b="54"></viz:color>
+      </node>
+      <node id="67699" label="Drosophila rhopaloa">
+        <attvalues>
+          <attvalue for="G bases" value="20.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="6853"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Drosophila rhopaloa"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Drosophila rhopaloa"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.056004"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="60.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="7.7172313"></viz:size>
+        <viz:position x="50.00552" y="59.498756" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="73495" label="Drosophila rhopaloa">
+        <attvalues>
+          <attvalue for="G bases" value="40.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="1041015"></attvalue>
+          <attvalue for="create_date" value="2011-09-22"></attvalue>
+          <attvalue for="accno" value="PRJNA73495"></attvalue>
+          <attvalue for="title" value="Drosophila rhopaloa Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila rhopaloa"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Annotation"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.026662"></attvalue>
+          <attvalue for="SRA: Gbases" value="40.0"></attvalue>
+        </attvalues>
+        <viz:size value="6.5433645"></viz:size>
+        <viz:position x="66.71335" y="29.669956" z="0.0"></viz:position>
+        <viz:color r="12" g="178" b="54"></viz:color>
+      </node>
+      <node id="67665" label="Drosophila rhopaloa">
+        <attvalues>
+          <attvalue for="G bases" value="20.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="1041015"></attvalue>
+          <attvalue for="create_date" value="2011-10-27"></attvalue>
+          <attvalue for="accno" value="PRJNA67665"></attvalue>
+          <attvalue for="title" value="Drosophila rhopaloa genome sequencing project"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila rhopaloa"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Assembly"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.029342"></attvalue>
+          <attvalue for="SRA: Gbases" value="20.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.9737296"></viz:size>
+        <viz:position x="38.426605" y="85.08848" z="0.0"></viz:position>
+        <viz:color r="178" g="137" b="12"></viz:color>
+      </node>
+      <node id="12680" label="Drosophila mojavensis">
+        <attvalues>
+          <attvalue for="genome_id" value="259"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Drosophila mojavensis"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Drosophila mojavensis"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="0.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="186.87328" y="1.4958944" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="168910" label="Drosophila mojavensis modENCODE transcriptome data">
+        <attvalues>
+          <attvalue for="genome_id" value="7230"></attvalue>
+          <attvalue for="create_date" value="2012-06-19"></attvalue>
+          <attvalue for="accno" value="PRJNA168910"></attvalue>
+          <attvalue for="title" value="Drosophila mojavensis Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Multiisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila mojavensis"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Array"></attvalue>
+          <attvalue for="data_type" value="Expression"></attvalue>
+        </attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="165.56415" y="-0.9614114" z="0.0"></viz:position>
+        <viz:color r="12" g="54" b="178"></viz:color>
+      </node>
+      <node id="62333" label="Drosophila kikkawai">
+        <attvalues>
+          <attvalue for="G bases" value="34.0"></attvalue>
+          <attvalue for="T bytes" value="0.02"></attvalue>
+          <attvalue for="genome_id" value="3492"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Drosophila kikkawai"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Drosophila kikkawai"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.045486"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="47.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="6.985083"></viz:size>
+        <viz:position x="73.48887" y="72.8353" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="62319" label="Drosophila kikkawai">
+        <attvalues>
+          <attvalue for="G bases" value="13.0"></attvalue>
+          <attvalue for="T bytes" value="0.02"></attvalue>
+          <attvalue for="genome_id" value="30033"></attvalue>
+          <attvalue for="create_date" value="2011-07-14"></attvalue>
+          <attvalue for="accno" value="PRJNA62319"></attvalue>
+          <attvalue for="title" value="Drosophila kikkawai genome sequencing project"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila kikkawai"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Assembly"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.022703"></attvalue>
+          <attvalue for="SRA: Gbases" value="13.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.224029"></viz:size>
+        <viz:position x="55.48227" y="100.377914" z="0.0"></viz:position>
+        <viz:color r="178" g="137" b="12"></viz:color>
+      </node>
+      <node id="73491" label="Drosophila kikkawai">
+        <attvalues>
+          <attvalue for="G bases" value="34.0"></attvalue>
+          <attvalue for="T bytes" value="0.02"></attvalue>
+          <attvalue for="genome_id" value="30033"></attvalue>
+          <attvalue for="create_date" value="2011-09-22"></attvalue>
+          <attvalue for="accno" value="PRJNA73491"></attvalue>
+          <attvalue for="title" value="Drosophila kikkawai Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila kikkawai"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Annotation"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.022783"></attvalue>
+          <attvalue for="SRA: Gbases" value="34.0"></attvalue>
+        </attvalues>
+        <viz:size value="6.129508"></viz:size>
+        <viz:position x="88.0579" y="41.53343" z="0.0"></viz:position>
+        <viz:color r="12" g="178" b="54"></viz:color>
+      </node>
+      <node id="62331" label="Drosophila ficusphila">
+        <attvalues>
+          <attvalue for="G bases" value="13.0"></attvalue>
+          <attvalue for="T bytes" value="0.02"></attvalue>
+          <attvalue for="genome_id" value="3491"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Drosophila ficusphila"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Drosophila ficusphila"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.05398"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="59.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="7.664279"></viz:size>
+        <viz:position x="19.599762" y="39.95054" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="73489" label="Drosophila ficusphila">
+        <attvalues>
+          <attvalue for="G bases" value="46.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="30025"></attvalue>
+          <attvalue for="create_date" value="2011-09-22"></attvalue>
+          <attvalue for="accno" value="PRJNA73489"></attvalue>
+          <attvalue for="title" value="Drosophila ficusphila Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila ficusphila"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Annotation"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.03154"></attvalue>
+          <attvalue for="SRA: Gbases" value="46.0"></attvalue>
+        </attvalues>
+        <viz:size value="6.924319"></viz:size>
+        <viz:position x="28.975851" y="14.386454" z="0.0"></viz:position>
+        <viz:color r="12" g="178" b="54"></viz:color>
+      </node>
+      <node id="62317" label="Drosophila ficusphila">
+        <attvalues>
+          <attvalue for="G bases" value="13.0"></attvalue>
+          <attvalue for="T bytes" value="0.02"></attvalue>
+          <attvalue for="genome_id" value="30025"></attvalue>
+          <attvalue for="create_date" value="2011-07-14"></attvalue>
+          <attvalue for="accno" value="PRJNA62317"></attvalue>
+          <attvalue for="title" value="Drosophila ficusphila genome sequencing project"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila ficusphila"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Assembly"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.02244"></attvalue>
+          <attvalue for="SRA: Gbases" value="13.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.224029"></viz:size>
+        <viz:position x="9.464626" y="67.34305" z="0.0"></viz:position>
+        <viz:color r="178" g="137" b="12"></viz:color>
+      </node>
+      <node id="62335" label="Drosophila takahashii">
+        <attvalues>
+          <attvalue for="G bases" value="38.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="3493"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Drosophila takahashii"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Drosophila takahashii"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.058847"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="59.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="7.664279"></viz:size>
+        <viz:position x="152.4619" y="107.01042" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="62321" label="Drosophila takahashii">
+        <attvalues>
+          <attvalue for="G bases" value="21.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="29030"></attvalue>
+          <attvalue for="create_date" value="2011-07-14"></attvalue>
+          <attvalue for="accno" value="PRJNA62321"></attvalue>
+          <attvalue for="title" value="Drosophila takahashii genome sequencing project"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila takahashii"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Assembly"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.032229"></attvalue>
+          <attvalue for="SRA: Gbases" value="21.0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0685697"></viz:size>
+        <viz:position x="141.56091" y="138.53136" z="0.0"></viz:position>
+        <viz:color r="178" g="137" b="12"></viz:color>
+      </node>
+      <node id="73493" label="Drosophila takahashii">
+        <attvalues>
+          <attvalue for="G bases" value="38.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="29030"></attvalue>
+          <attvalue for="create_date" value="2011-09-22"></attvalue>
+          <attvalue for="accno" value="PRJNA73493"></attvalue>
+          <attvalue for="title" value="Drosophila takahashii Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila takahashii"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Annotation"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.026618"></attvalue>
+          <attvalue for="SRA: Gbases" value="38.0"></attvalue>
+        </attvalues>
+        <viz:size value="6.4094462"></viz:size>
+        <viz:position x="162.18115" y="73.697334" z="0.0"></viz:position>
+        <viz:color r="12" g="178" b="54"></viz:color>
+      </node>
+      <node id="67795" label="Drosophila eugracilis">
+        <attvalues>
+          <attvalue for="G bases" value="17.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="6863"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Drosophila eugracilis"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Drosophila eugracilis"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.055425"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="53.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="7.335437"></viz:size>
+        <viz:position x="32.73278" y="49.93264" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="73487" label="Drosophila eugracilis">
+        <attvalues>
+          <attvalue for="G bases" value="36.0"></attvalue>
+          <attvalue for="T bytes" value="0.02"></attvalue>
+          <attvalue for="genome_id" value="29029"></attvalue>
+          <attvalue for="create_date" value="2011-09-22"></attvalue>
+          <attvalue for="accno" value="PRJNA73487"></attvalue>
+          <attvalue for="title" value="Drosophila eugracilis Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila eugracilis"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Annotation"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.024477"></attvalue>
+          <attvalue for="SRA: Gbases" value="36.0"></attvalue>
+        </attvalues>
+        <viz:size value="6.271605"></viz:size>
+        <viz:position x="48.06873" y="22.94849" z="0.0"></viz:position>
+        <viz:color r="12" g="178" b="54"></viz:color>
+      </node>
+      <node id="67709" label="Drosophila eugracilis">
+        <attvalues>
+          <attvalue for="G bases" value="17.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="29029"></attvalue>
+          <attvalue for="create_date" value="2011-10-27"></attvalue>
+          <attvalue for="accno" value="PRJNA67709"></attvalue>
+          <attvalue for="title" value="Drosophila eugracilis genome sequencing"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila eugracilis"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Assembly"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.030948"></attvalue>
+          <attvalue for="SRA: Gbases" value="17.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.6729546"></viz:size>
+        <viz:position x="21.765038" y="78.454475" z="0.0"></viz:position>
+        <viz:color r="178" g="137" b="12"></viz:color>
+      </node>
+      <node id="164275" label="Caenorhabditis">
+        <attvalues>
+          <attvalue for="G bases" value="9.0"></attvalue>
+          <attvalue for="T bytes" value="0.01"></attvalue>
+          <attvalue for="genome_id" value="13769"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Caenorhabditis"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Caenorhabditis"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.047701"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="33.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="6.0567474"></viz:size>
+        <viz:position x="-247.88213" y="-177.67989" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="51169" label="Caenorhabditis sp. 9 MAF-2010">
+        <attvalues>
+          <attvalue for="G bases" value="16.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="870437"></attvalue>
+          <attvalue for="create_date" value="2011-01-19"></attvalue>
+          <attvalue for="accno" value="PRJNA51169"></attvalue>
+          <attvalue for="title" value="Caenorhabditis sp. 9 MAF-2010 genome sequencing"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Caenorhabditis sp. 9 MAF-2010"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Assembly"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.027134"></attvalue>
+          <attvalue for="SRA: Gbases" value="16.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.5664897"></viz:size>
+        <viz:position x="-261.58072" y="-159.07428" z="0.0"></viz:position>
+        <viz:color r="178" g="137" b="12"></viz:color>
+      </node>
+      <node id="53597" label="Caenorhabditis sp. 11 MAF-2010">
+        <attvalues>
+          <attvalue for="G bases" value="8.0"></attvalue>
+          <attvalue for="T bytes" value="0.01"></attvalue>
+          <attvalue for="genome_id" value="886184"></attvalue>
+          <attvalue for="create_date" value="2011-01-19"></attvalue>
+          <attvalue for="accno" value="PRJNA53597"></attvalue>
+          <attvalue for="title" value="Caenorhabditis sp. 11 MAF-2010 genome sequencing"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Caenorhabditis sp. 11 MAF-2010"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Assembly"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.00827"></attvalue>
+          <attvalue for="SRA: Gbases" value="8.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.5433986"></viz:size>
+        <viz:position x="-230.09898" y="-163.4042" z="0.0"></viz:position>
+        <viz:color r="178" g="137" b="12"></viz:color>
+      </node>
+      <node id="51171" label="Caenorhabditis sp. 7 MAF-2007">
+        <attvalues>
+          <attvalue for="G bases" value="9.0"></attvalue>
+          <attvalue for="T bytes" value="0.01"></attvalue>
+          <attvalue for="genome_id" value="870436"></attvalue>
+          <attvalue for="create_date" value="2011-01-19"></attvalue>
+          <attvalue for="accno" value="PRJNA51171"></attvalue>
+          <attvalue for="title" value="Caenorhabditis sp. 7 EA-2010 genome sequencing"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Caenorhabditis sp. 7 MAF-2007"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Assembly"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.012297"></attvalue>
+          <attvalue for="SRA: Gbases" value="9.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.6943443"></viz:size>
+        <viz:position x="-244.30101" y="-156.33183" z="0.0"></viz:position>
+        <viz:color r="178" g="137" b="12"></viz:color>
+      </node>
+      <node id="62487" label="Drosophila biarmipes">
+        <attvalues>
+          <attvalue for="G bases" value="41.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="3499"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Drosophila biarmipes"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Drosophila biarmipes"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.05404"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="57.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="7.5568395"></viz:size>
+        <viz:position x="107.78507" y="92.22132" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="62307" label="Drosophila biarmipes">
+        <attvalues>
+          <attvalue for="G bases" value="16.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="125945"></attvalue>
+          <attvalue for="create_date" value="2011-10-27"></attvalue>
+          <attvalue for="accno" value="PRJNA62307"></attvalue>
+          <attvalue for="title" value="Drosophila biarmipes genome sequencing project"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila biarmipes"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Assembly"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.026816"></attvalue>
+          <attvalue for="SRA: Gbases" value="16.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.5664897"></viz:size>
+        <viz:position x="97.0866" y="118.08894" z="0.0"></viz:position>
+        <viz:color r="178" g="137" b="12"></viz:color>
+      </node>
+      <node id="73479" label="Drosophila biarmipes">
+        <attvalues>
+          <attvalue for="G bases" value="41.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="125945"></attvalue>
+          <attvalue for="create_date" value="2011-09-22"></attvalue>
+          <attvalue for="accno" value="PRJNA73479"></attvalue>
+          <attvalue for="title" value="Drosophila biarmipes Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila biarmipes"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Annotation"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.027224"></attvalue>
+          <attvalue for="SRA: Gbases" value="41.0"></attvalue>
+        </attvalues>
+        <viz:size value="6.608945"></viz:size>
+        <viz:position x="121.95901" y="58.32025" z="0.0"></viz:position>
+        <viz:color r="12" g="178" b="54"></viz:color>
+      </node>
+      <node id="12265" label="Drosophila yakuba">
+        <attvalues>
+          <attvalue for="genome_id" value="148"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Drosophila yakuba"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Drosophila yakuba"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="0.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="162.4418" y="-70.258736" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="168670" label="Drosophila yakuba modENCODE transcriptome data">
+        <attvalues>
+          <attvalue for="genome_id" value="7245"></attvalue>
+          <attvalue for="create_date" value="2012-06-19"></attvalue>
+          <attvalue for="accno" value="PRJNA168670"></attvalue>
+          <attvalue for="title" value="Drosophila yakuba Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Multiisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila yakuba"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Array"></attvalue>
+          <attvalue for="data_type" value="Expression"></attvalue>
+        </attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="147.5102" y="-52.899784" z="0.0"></viz:position>
+        <viz:color r="12" g="54" b="178"></viz:color>
+      </node>
+      <node id="62329" label="Drosophila elegans">
+        <attvalues>
+          <attvalue for="G bases" value="18.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="3490"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Drosophila elegans"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Drosophila elegans"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.064616"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="69.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="8.172922"></viz:size>
+        <viz:position x="128.20807" y="106.49145" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="73483" label="Drosophila elegans">
+        <attvalues>
+          <attvalue for="G bases" value="51.0"></attvalue>
+          <attvalue for="T bytes" value="0.04"></attvalue>
+          <attvalue for="genome_id" value="30023"></attvalue>
+          <attvalue for="create_date" value="2011-09-22"></attvalue>
+          <attvalue for="accno" value="PRJNA73483"></attvalue>
+          <attvalue for="title" value="Drosophila elegans Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila elegans"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Annotation"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.035158"></attvalue>
+          <attvalue for="SRA: Gbases" value="51.0"></attvalue>
+        </attvalues>
+        <viz:size value="7.221227"></viz:size>
+        <viz:position x="139.19455" y="66.04019" z="0.0"></viz:position>
+        <viz:color r="12" g="178" b="54"></viz:color>
+      </node>
+      <node id="62315" label="Drosophila elegans">
+        <attvalues>
+          <attvalue for="G bases" value="18.0"></attvalue>
+          <attvalue for="T bytes" value="0.03"></attvalue>
+          <attvalue for="genome_id" value="30023"></attvalue>
+          <attvalue for="create_date" value="2011-07-14"></attvalue>
+          <attvalue for="accno" value="PRJNA62315"></attvalue>
+          <attvalue for="title" value="Drosophila elegans genome sequencing project"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila elegans"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Assembly"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.029458"></attvalue>
+          <attvalue for="SRA: Gbases" value="18.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.776142"></viz:size>
+        <viz:position x="118.91922" y="128.59814" z="0.0"></viz:position>
+        <viz:color r="178" g="137" b="12"></viz:color>
+      </node>
+      <node id="12463" label="Drosophila simulans">
+        <attvalues>
+          <attvalue for="genome_id" value="200"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Drosophila simulans"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Drosophila simulans"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="0.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="186.97972" y="-26.361801" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="168867" label="Drosophila simulans modENCODE transcriptome data">
+        <attvalues>
+          <attvalue for="genome_id" value="7240"></attvalue>
+          <attvalue for="create_date" value="2012-06-19"></attvalue>
+          <attvalue for="accno" value="PRJNA168867"></attvalue>
+          <attvalue for="title" value="Drosophila simulans Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Multiisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila simulans"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Array"></attvalue>
+          <attvalue for="data_type" value="Expression"></attvalue>
+        </attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="165.33728" y="-21.325155" z="0.0"></viz:position>
+        <viz:color r="12" g="54" b="178"></viz:color>
+      </node>
+      <node id="9548" label="Caenorhabditis elegans">
+        <attvalues>
+          <attvalue for="G bases" value="441.0"></attvalue>
+          <attvalue for="T bytes" value="0.35"></attvalue>
+          <attvalue for="genome_id" value="41"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Caenorhabditis elegans"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Caenorhabditis elegans"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.622718"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="61873.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="700.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="3906.0"></attvalue>
+          <attvalue for="GEO: Spots" value="1.50521376E8"></attvalue>
+        </attvalues>
+        <viz:size value="20.628365"></viz:size>
+        <viz:position x="-311.3168" y="-31.249645" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="75295" label="nematode transcriptome">
+        <attvalues>
+          <attvalue for="G bases" value="85.0"></attvalue>
+          <attvalue for="T bytes" value="0.06"></attvalue>
+          <attvalue for="genome_id" value="-1"></attvalue>
+          <attvalue for="create_date" value="2008-09-19"></attvalue>
+          <attvalue for="accno" value="PRJNA75295"></attvalue>
+          <attvalue for="title" value="Deep sequencing of nematode transcriptomes using RNA isolated from various developmental stages under various experimental conditions"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Multispecies"></attvalue>
+          <attvalue for="organism_name" value="Caenorhabditis"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="RawSequenceReads"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.056727"></attvalue>
+          <attvalue for="SRA: Gbases" value="85.0"></attvalue>
+        </attvalues>
+        <viz:size value="8.906027"></viz:size>
+        <viz:position x="-263.823" y="18.001883" z="0.0"></viz:position>
+        <viz:color r="95" g="178" b="12"></viz:color>
+      </node>
+      <node id="31323" label="Caenorhabditis elegans">
+        <attvalues>
+          <attvalue for="genome_id" value="6239"></attvalue>
+          <attvalue for="create_date" value="2008-09-19"></attvalue>
+          <attvalue for="accno" value="PRJNA31323"></attvalue>
+          <attvalue for="title" value="UTRome.org: a platform for 3'UTR biology in C. elegans"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Caenorhabditis elegans"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Other"></attvalue>
+        </attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="-268.01538" y="-17.441566" z="0.0"></viz:position>
+        <viz:color r="12" g="178" b="178"></viz:color>
+      </node>
+      <node id="63455" label="Epigenomics projects for the C. elegans modENCODE project.">
+        <attvalues>
+          <attvalue for="G bases" value="0.0"></attvalue>
+          <attvalue for="T bytes" value="0.0"></attvalue>
+          <attvalue for="genome_id" value="6239"></attvalue>
+          <attvalue for="create_date" value="2011-03-04"></attvalue>
+          <attvalue for="accno" value="PRJNA63455"></attvalue>
+          <attvalue for="title" value="Epigenomics projects for the C. elegans modENCODE project."></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Caenorhabditis elegans"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Array"></attvalue>
+          <attvalue for="data_type" value="EpigeneticMarkers"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.007645"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="13291.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="9.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.6943443"></viz:size>
+        <viz:position x="-276.09323" y="-54.72984" z="0.0"></viz:position>
+        <viz:color r="178" g="12" b="12"></viz:color>
+      </node>
+      <node id="168961" label="Caenorhabditis elegans modENCODE transcriptome data">
+        <attvalues>
+          <attvalue for="G bases" value="12.0"></attvalue>
+          <attvalue for="T bytes" value="0.05"></attvalue>
+          <attvalue for="genome_id" value="6239"></attvalue>
+          <attvalue for="create_date" value="2012-06-19"></attvalue>
+          <attvalue for="accno" value="PRJNA168961"></attvalue>
+          <attvalue for="title" value="Caenorhabditis elegans Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Multiisolate"></attvalue>
+          <attvalue for="organism_name" value="Caenorhabditis elegans"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Array"></attvalue>
+          <attvalue for="data_type" value="Expression"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.048346"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="11027.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="12.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="1957.0"></attvalue>
+          <attvalue for="GEO: Spots" value="4.6159072E7"></attvalue>
+        </attvalues>
+        <viz:size value="4.100728"></viz:size>
+        <viz:position x="-267.369" y="-4.8604746" z="0.0"></viz:position>
+        <viz:color r="12" g="54" b="178"></viz:color>
+      </node>
+      <node id="63461" label="Functional genomics project for the for the C. elegans modENCODE Project.">
+        <attvalues>
+          <attvalue for="G bases" value="0.0"></attvalue>
+          <attvalue for="T bytes" value="0.0"></attvalue>
+          <attvalue for="genome_id" value="6239"></attvalue>
+          <attvalue for="create_date" value="2011-03-04"></attvalue>
+          <attvalue for="accno" value="PRJNA63461"></attvalue>
+          <attvalue for="title" value="Functional genomics project for the for the C. elegans modENCODE Project."></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Caenorhabditis elegans"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Other"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.12"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="37555.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="105.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="1949.0"></attvalue>
+          <attvalue for="GEO: Spots" value="1.04362296E8"></attvalue>
+        </attvalues>
+        <viz:size value="9.717847"></viz:size>
+        <viz:position x="-270.27545" y="-35.368473" z="0.0"></viz:position>
+        <viz:color r="12" g="178" b="178"></viz:color>
+      </node>
+      <node id="33023" label="Caenorhabditis elegans">
+        <attvalues>
+          <attvalue for="G bases" value="441.0"></attvalue>
+          <attvalue for="T bytes" value="0.35"></attvalue>
+          <attvalue for="genome_id" value="6239"></attvalue>
+          <attvalue for="create_date" value="2008-09-19"></attvalue>
+          <attvalue for="accno" value="PRJNA33023"></attvalue>
+          <attvalue for="title" value="Deep sequencing of the Caenorhabditis elegans transcriptome using RNA isolated from various developmental stages under various experimental conditions"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Caenorhabditis elegans"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="RawSequenceReads"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.39"></attvalue>
+          <attvalue for="SRA: Gbases" value="489.0"></attvalue>
+        </attvalues>
+        <viz:size value="18.061523"></viz:size>
+        <viz:position x="-289.49307" y="-81.90432" z="0.0"></viz:position>
+        <viz:color r="95" g="178" b="12"></viz:color>
+      </node>
+      <node id="12632" label="Drosophila ananassae">
+        <attvalues>
+          <attvalue for="genome_id" value="244"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Drosophila ananassae"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Drosophila ananassae"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="0.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="178.0457" y="-50.75673" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="168883" label="Drosophila ananassae modENCODE transcriptome data">
+        <attvalues>
+          <attvalue for="genome_id" value="7217"></attvalue>
+          <attvalue for="create_date" value="2012-06-19"></attvalue>
+          <attvalue for="accno" value="PRJNA168883"></attvalue>
+          <attvalue for="title" value="Drosophila ananassae Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Multiisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila ananassae"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Array"></attvalue>
+          <attvalue for="data_type" value="Expression"></attvalue>
+        </attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="158.77643" y="-38.883545" z="0.0"></viz:position>
+        <viz:color r="12" g="54" b="178"></viz:color>
+      </node>
+      <node id="12687" label="Drosophila virilis">
+        <attvalues>
+          <attvalue for="genome_id" value="261"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Drosophila virilis"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Drosophila virilis"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="0.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="142.14288" y="-83.52185" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="168950" label="Drosophila virilis modENCODE transcriptome data">
+        <attvalues>
+          <attvalue for="genome_id" value="7244"></attvalue>
+          <attvalue for="create_date" value="2012-06-19"></attvalue>
+          <attvalue for="accno" value="PRJNA168950"></attvalue>
+          <attvalue for="title" value="Drosophila virilis Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Multiisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila virilis"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Array"></attvalue>
+          <attvalue for="data_type" value="Expression"></attvalue>
+        </attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="132.80753" y="-62.547592" z="0.0"></viz:position>
+        <viz:color r="12" g="54" b="178"></viz:color>
+      </node>
+      <node id="12559" label="Drosophila pseudoobscura">
+        <attvalues>
+          <attvalue for="genome_id" value="219"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Drosophila pseudoobscura"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Drosophila pseudoobscura"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="0.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="119.48439" y="-88.47193" z="0.0"></viz:position>
+        <viz:color r="95" g="12" b="178"></viz:color>
+      </node>
+      <node id="168868" label="Drosophila pseudoobscura modENCODE transcriptome data">
+        <attvalues>
+          <attvalue for="genome_id" value="7237"></attvalue>
+          <attvalue for="create_date" value="2012-06-19"></attvalue>
+          <attvalue for="accno" value="PRJNA168868"></attvalue>
+          <attvalue for="title" value="Drosophila pseudoobscura Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Multiisolate"></attvalue>
+          <attvalue for="organism_name" value="Drosophila pseudoobscura"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Array"></attvalue>
+          <attvalue for="data_type" value="Expression"></attvalue>
+        </attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="115.715195" y="-66.27169" z="0.0"></viz:position>
+        <viz:color r="12" g="54" b="178"></viz:color>
+      </node>
+      <node id="63449" label="The Drosophila modENCODE Project.">
+        <attvalues>
+          <attvalue for="genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="2011-03-04"></attvalue>
+          <attvalue for="accno" value="PRJNA63449"></attvalue>
+          <attvalue for="title" value="The Drosophila modENCODE Project."></attvalue>
+          <attvalue for="project_type" value="TopAdmin"></attvalue>
+          <attvalue for="target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="target_material" value="TopAdmin"></attvalue>
+          <attvalue for="target_sample_scope" value="TopAdmin"></attvalue>
+          <attvalue for="organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="organism_supergroup" value="TopAdmin"></attvalue>
+          <attvalue for="method" value="TopAdmin"></attvalue>
+          <attvalue for="data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="1.4"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="222170.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="1486.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="4910.0"></attvalue>
+          <attvalue for="GEO: Spots" value="1.58943744E8"></attvalue>
+        </attvalues>
+        <viz:size value="26.314186"></viz:size>
+        <viz:position x="-21.911932" y="-1.8958353" z="0.0"></viz:position>
+        <viz:color r="178" g="12" b="137"></viz:color>
+      </node>
+      <node id="63477" label="modENCODE Drosophila reference genome sequencing">
+        <attvalues>
+          <attvalue for="genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="2011-03-04"></attvalue>
+          <attvalue for="accno" value="PRJNA63477"></attvalue>
+          <attvalue for="title" value="modENCODE Drosophila reference genome sequencing"></attvalue>
+          <attvalue for="project_type" value="TopAdmin"></attvalue>
+          <attvalue for="target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="target_material" value="TopAdmin"></attvalue>
+          <attvalue for="target_sample_scope" value="TopAdmin"></attvalue>
+          <attvalue for="organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="organism_supergroup" value="TopAdmin"></attvalue>
+          <attvalue for="method" value="TopAdmin"></attvalue>
+          <attvalue for="data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.22"></attvalue>
+          <attvalue for="SRA: Gbases" value="140.0"></attvalue>
+        </attvalues>
+        <viz:size value="10.942841"></viz:size>
+        <viz:position x="23.533468" y="129.61739" z="0.0"></viz:position>
+        <viz:color r="178" g="12" b="137"></viz:color>
+      </node>
+      <node id="75267" label="modENCODE Nematode reference genome sequencing">
+        <attvalues>
+          <attvalue for="genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="2011-10-28"></attvalue>
+          <attvalue for="accno" value="PRJNA75267"></attvalue>
+          <attvalue for="title" value="modENCODE Nematode reference genome sequencing"></attvalue>
+          <attvalue for="project_type" value="TopAdmin"></attvalue>
+          <attvalue for="target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="target_material" value="TopAdmin"></attvalue>
+          <attvalue for="target_sample_scope" value="TopAdmin"></attvalue>
+          <attvalue for="organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="organism_supergroup" value="TopAdmin"></attvalue>
+          <attvalue for="method" value="TopAdmin"></attvalue>
+          <attvalue for="data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.047701"></attvalue>
+          <attvalue for="SRA: Gbases" value="32.0"></attvalue>
+        </attvalues>
+        <viz:size value="5.9827757"></viz:size>
+        <viz:position x="-242.45491" y="-133.05396" z="0.0"></viz:position>
+        <viz:color r="178" g="12" b="137"></viz:color>
+      </node>
+      <node id="36315" label="modENCODE Project">
+        <attvalues>
+          <attvalue for="G bases" value="0.0"></attvalue>
+          <attvalue for="T bytes" value="0.0"></attvalue>
+          <attvalue for="genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="2009-03-23"></attvalue>
+          <attvalue for="accno" value="PRJNA36315"></attvalue>
+          <attvalue for="title" value="The Model Organism ENCyclopedia Of DNA Elements (modENCODE) Project"></attvalue>
+          <attvalue for="project_type" value="TopAdmin"></attvalue>
+          <attvalue for="target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="target_material" value="TopAdmin"></attvalue>
+          <attvalue for="target_sample_scope" value="TopAdmin"></attvalue>
+          <attvalue for="organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="organism_supergroup" value="TopAdmin"></attvalue>
+          <attvalue for="method" value="TopAdmin"></attvalue>
+          <attvalue for="data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="2.73"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="276052.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="2997.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="8816.0"></attvalue>
+          <attvalue for="GEO: Spots" value="3.0946512E8"></attvalue>
+        </attvalues>
+        <viz:size value="30.0"></viz:size>
+        <viz:position x="-130.71948" y="-30.794765" z="0.0"></viz:position>
+        <viz:color r="178" g="12" b="137"></viz:color>
+      </node>
+      <node id="63469" label="Transcriptome analysis projects for the Drosophila modENCODE Project.">
+        <attvalues>
+          <attvalue for="G bases" value="0.0"></attvalue>
+          <attvalue for="T bytes" value="0.0"></attvalue>
+          <attvalue for="genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="2011-03-04"></attvalue>
+          <attvalue for="accno" value="PRJNA63469"></attvalue>
+          <attvalue for="title" value="Transcriptome analysis projects for the Drosophila modENCODE Project."></attvalue>
+          <attvalue for="project_type" value="TopAdmin"></attvalue>
+          <attvalue for="target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="target_material" value="TopAdmin"></attvalue>
+          <attvalue for="target_sample_scope" value="TopAdmin"></attvalue>
+          <attvalue for="organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="organism_supergroup" value="TopAdmin"></attvalue>
+          <attvalue for="method" value="TopAdmin"></attvalue>
+          <attvalue for="data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="1.0"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="109424.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="1147.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="1595.0"></attvalue>
+          <attvalue for="GEO: Spots" value="6.094378E7"></attvalue>
+        </attvalues>
+        <viz:size value="24.375553"></viz:size>
+        <viz:position x="107.762024" y="-8.935659" z="0.0"></viz:position>
+        <viz:color r="178" g="12" b="137"></viz:color>
+      </node>
+      <node id="63457" label="Caenorhabditis elegans">
+        <attvalues>
+          <attvalue for="G bases" value="0.0"></attvalue>
+          <attvalue for="T bytes" value="0.0"></attvalue>
+          <attvalue for="genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="2011-03-04"></attvalue>
+          <attvalue for="accno" value="PRJNA63457"></attvalue>
+          <attvalue for="title" value="Transcriptome analysis for the C. elegans modENCODE Project."></attvalue>
+          <attvalue for="project_type" value="TopAdmin"></attvalue>
+          <attvalue for="target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="target_material" value="TopAdmin"></attvalue>
+          <attvalue for="target_sample_scope" value="TopAdmin"></attvalue>
+          <attvalue for="organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="organism_supergroup" value="TopAdmin"></attvalue>
+          <attvalue for="method" value="TopAdmin"></attvalue>
+          <attvalue for="data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.048346"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="11022.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="12.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="1957.0"></attvalue>
+          <attvalue for="GEO: Spots" value="4.6159072E7"></attvalue>
+        </attvalues>
+        <viz:size value="4.100728"></viz:size>
+        <viz:position x="-255.52985" y="-19.325253" z="0.0"></viz:position>
+        <viz:color r="178" g="12" b="137"></viz:color>
+      </node>
+      <node id="63453" label="Caenorhabditis modENCODE Project">
+        <attvalues>
+          <attvalue for="genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="2011-03-04"></attvalue>
+          <attvalue for="accno" value="PRJNA63453"></attvalue>
+          <attvalue for="title" value="The C. elegans modENCODE Project."></attvalue>
+          <attvalue for="project_type" value="TopAdmin"></attvalue>
+          <attvalue for="target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="target_material" value="TopAdmin"></attvalue>
+          <attvalue for="target_sample_scope" value="TopAdmin"></attvalue>
+          <attvalue for="organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="organism_supergroup" value="TopAdmin"></attvalue>
+          <attvalue for="method" value="TopAdmin"></attvalue>
+          <attvalue for="data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.67"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="53882.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="732.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="3906.0"></attvalue>
+          <attvalue for="GEO: Spots" value="1.50521376E8"></attvalue>
+        </attvalues>
+        <viz:size value="20.960617"></viz:size>
+        <viz:position x="-233.33952" y="-58.865833" z="0.0"></viz:position>
+        <viz:color r="178" g="12" b="137"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="5186" source="9554" target="75285">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4582" source="9554" target="63467">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5262" source="9554" target="168994">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4583" source="9554" target="63463">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5219" source="62327" target="62313">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5200" source="62327" target="73485">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5212" source="67699" target="73495">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5239" source="67699" target="67665">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5251" source="12680" target="168910">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5216" source="62333" target="62319">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5263" source="62333" target="73491">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5206" source="62331" target="73489">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5217" source="62331" target="62317">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5222" source="62335" target="62321">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5213" source="62335" target="73493">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5207" source="67795" target="73487">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5190" source="67795" target="67709">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5237" source="164275" target="51169">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5215" source="164275" target="53597">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5236" source="164275" target="51171">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5214" source="62487" target="62307">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5254" source="62487" target="73479">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5204" source="12265" target="168670">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5201" source="62329" target="73483">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5218" source="62329" target="62315">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5247" source="12463" target="168867">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="3422" source="9548" target="75295">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5271" source="9548" target="31323">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4533" source="9548" target="63455">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5185" source="9548" target="168961">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4543" source="9548" target="63461">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="3173" source="9548" target="33023">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5231" source="12632" target="168883">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5240" source="12687" target="168950">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5244" source="12559" target="168868">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="500" source="63449" target="63467">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="498" source="63449" target="63463">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="501" source="63449" target="63477">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="502" source="63449" target="63469">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4559" source="63477" target="62313">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4549" source="63477" target="67665">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4553" source="63477" target="62319">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4555" source="63477" target="62317">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4551" source="63477" target="62321">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4547" source="63477" target="67709">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4561" source="63477" target="62307">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4557" source="63477" target="62315">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="3468" source="75267" target="51169">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="3466" source="75267" target="53597">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="3469" source="75267" target="51171">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="75" source="36315" target="63449">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="76" source="36315" target="63453">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4615" source="63469" target="75285">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4629" source="63469" target="168994">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4609" source="63469" target="73485">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4599" source="63469" target="73495">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4623" source="63469" target="168910">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4603" source="63469" target="73491">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4605" source="63469" target="73489">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4601" source="63469" target="73493">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4607" source="63469" target="73487">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4613" source="63469" target="73479">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4617" source="63469" target="168670">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4611" source="63469" target="73483">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4619" source="63469" target="168867">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4621" source="63469" target="168883">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4627" source="63469" target="168950">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4625" source="63469" target="168868">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4530" source="63457" target="31323">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4532" source="63457" target="168961">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="416" source="63453" target="75295">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="417" source="63453" target="63455">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="420" source="63453" target="63461">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="414" source="63453" target="33023">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="419" source="63453" target="75267">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="418" source="63453" target="63457">
+        <attvalues></attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

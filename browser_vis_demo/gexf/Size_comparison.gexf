@@ -1,0 +1,1826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2012-11-02">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="GigaBases" title="GigaBases" type="string"></attribute>
+      <attribute id="TeraBytes" title="TeraBytes" type="string"></attribute>
+      <attribute id="Genome_id" title="Genome_id" type="string"></attribute>
+      <attribute id="create_date" title="create_date" type="string"></attribute>
+      <attribute id="Accno" title="Accno" type="string"></attribute>
+      <attribute id="Title" title="Title" type="string"></attribute>
+      <attribute id="Project_type" title="Project_type" type="string"></attribute>
+      <attribute id="Target_capture" title="Target_capture" type="string"></attribute>
+      <attribute id="Target_material" title="Target_material" type="string"></attribute>
+      <attribute id="Target_scope" title="Target_scope" type="string"></attribute>
+      <attribute id="Organism_name" title="Organism_name" type="string"></attribute>
+      <attribute id="Kingdom" title="Kingdom" type="string"></attribute>
+      <attribute id="Method" title="Method" type="string"></attribute>
+      <attribute id="Data_type" title="Data_type" type="string"></attribute>
+      <attribute id="SRA: Tbytes" title="SRA: Tbytes" type="float"></attribute>
+      <attribute id="GEO: Supplementary Mbytes" title="GEO: Supplementary Mbytes" type="float"></attribute>
+      <attribute id="SRA: Gbases" title="SRA: Gbases" type="float"></attribute>
+      <attribute id="GEO: Processed Mbytes" title="GEO: Processed Mbytes" type="float"></attribute>
+      <attribute id="Sqrt_Gbases" title="Sqrt_Gbases" type="float"></attribute>
+      <attribute id="Size" title="Size" type="float"></attribute>
+      <attribute id="Pos_1" title="Pos_1" type="float"></attribute>
+      <attribute id="Pos_2" title="Pos_2" type="float"></attribute>
+      <attribute id="Pos_3" title="Pos_3" type="float"></attribute>
+      <attribute id="Pos_4" title="Pos_4" type="float"></attribute>
+      <attribute id="Pos_5" title="Pos_5" type="float"></attribute>
+      <attribute id="Horiz" title="Horiz" type="float"></attribute>
+    </attributes>
+    <nodes>
+      <node id="9558" label="Homo sapiens">
+        <attvalues>
+          <attvalue for="GigaBases" value="24696"></attvalue>
+          <attvalue for="TeraBytes" value="12.98"></attvalue>
+          <attvalue for="Genome_id" value="51"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Homo sapiens"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Homo sapiens"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="175.19127"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="193648.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="440.05453"></attvalue>
+          <attvalue for="Size" value="15.0"></attvalue>
+          <attvalue for="Pos_1" value="1.0"></attvalue>
+          <attvalue for="Pos_2" value="1.0"></attvalue>
+          <attvalue for="Pos_3" value="1.0"></attvalue>
+          <attvalue for="Pos_4" value="1.0"></attvalue>
+          <attvalue for="Pos_5" value="1.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="15.0"></viz:size>
+        <viz:position x="100.0" y="1.0" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="9559" label="Mus musculus">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="52"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Mus musculus"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Mus musculus"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="2.65"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="950612.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="4011.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="801.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="63.332455"></attvalue>
+          <attvalue for="Size" value="3.013382"></attvalue>
+          <attvalue for="Pos_1" value="4.013382"></attvalue>
+          <attvalue for="Pos_2" value="10.006691"></attvalue>
+          <attvalue for="Pos_3" value="19.013382"></attvalue>
+          <attvalue for="Pos_4" value="10.006691"></attvalue>
+          <attvalue for="Pos_5" value="2.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.013382"></viz:size>
+        <viz:position x="100.0" y="10.006691" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="59949" label="Mustela putorius furo">
+        <attvalues>
+          <attvalue for="GigaBases" value="279"></attvalue>
+          <attvalue for="TeraBytes" value="0.22"></attvalue>
+          <attvalue for="Genome_id" value="3295"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Mustela putorius furo"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Mustela putorius furo"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="1.09"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="1337.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="36.56501"></attvalue>
+          <attvalue for="Size" value="2.16169"></attvalue>
+          <attvalue for="Pos_1" value="6.1750717"></attvalue>
+          <attvalue for="Pos_2" value="12.594227"></attvalue>
+          <attvalue for="Pos_3" value="24.188454"></attvalue>
+          <attvalue for="Pos_4" value="12.594227"></attvalue>
+          <attvalue for="Pos_5" value="3.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="2.16169"></viz:size>
+        <viz:position x="100.0" y="12.594227" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="59451" label="Latimeria chalumnae">
+        <attvalues>
+          <attvalue for="GigaBases" value="79"></attvalue>
+          <attvalue for="TeraBytes" value="0.05"></attvalue>
+          <attvalue for="Genome_id" value="3262"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Latimeria chalumnae"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Latimeria chalumnae"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="1.173957"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="1067.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="32.664967"></attvalue>
+          <attvalue for="Size" value="2.0375977"></attvalue>
+          <attvalue for="Pos_1" value="8.212669"></attvalue>
+          <attvalue for="Pos_2" value="14.693871"></attvalue>
+          <attvalue for="Pos_3" value="28.387741"></attvalue>
+          <attvalue for="Pos_4" value="14.693871"></attvalue>
+          <attvalue for="Pos_5" value="4.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="2.0375977"></viz:size>
+        <viz:position x="100.0" y="14.693871" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="9554" label="Drosophila melanogaster">
+        <attvalues>
+          <attvalue for="GigaBases" value="0"></attvalue>
+          <attvalue for="TeraBytes" value="0"></attvalue>
+          <attvalue for="Genome_id" value="47"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Drosophila melanogaster"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Drosophila melanogaster"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.950764"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="285988.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="1011.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="9673.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="31.796227"></attvalue>
+          <attvalue for="Size" value="2.009956"></attvalue>
+          <attvalue for="Pos_1" value="10.222626"></attvalue>
+          <attvalue for="Pos_2" value="16.717648"></attvalue>
+          <attvalue for="Pos_3" value="32.435295"></attvalue>
+          <attvalue for="Pos_4" value="16.717648"></attvalue>
+          <attvalue for="Pos_5" value="5.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="2.009956"></viz:size>
+        <viz:position x="100.0" y="16.717648" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="70507" label="Trichechus manatus">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="10467"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Trichechus manatus"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Trichechus manatus"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.52"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="811.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="28.478062"></attvalue>
+          <attvalue for="Size" value="1.9043778"></attvalue>
+          <attvalue for="Pos_1" value="12.127004"></attvalue>
+          <attvalue for="Pos_2" value="18.674814"></attvalue>
+          <attvalue for="Pos_3" value="36.34963"></attvalue>
+          <attvalue for="Pos_4" value="18.674814"></attvalue>
+          <attvalue for="Pos_5" value="6.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.9043779"></viz:size>
+        <viz:position x="100.0" y="18.674814" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="70505" label="Chinchilla lanigera">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="10466"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Chinchilla lanigera"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Chinchilla lanigera"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.508915"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="752.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="27.422619"></attvalue>
+          <attvalue for="Size" value="1.8707956"></attvalue>
+          <attvalue for="Pos_1" value="13.997799"></attvalue>
+          <attvalue for="Pos_2" value="20.5624"></attvalue>
+          <attvalue for="Pos_3" value="40.1248"></attvalue>
+          <attvalue for="Pos_4" value="20.5624"></attvalue>
+          <attvalue for="Pos_5" value="7.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.8707956"></viz:size>
+        <viz:position x="100.0" y="20.5624" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="9548" label="Caenorhabditis elegans">
+        <attvalues>
+          <attvalue for="GigaBases" value="441"></attvalue>
+          <attvalue for="TeraBytes" value="0.35"></attvalue>
+          <attvalue for="Genome_id" value="41"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Caenorhabditis elegans"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Caenorhabditis elegans"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.622718"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="61873.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="700.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="3906.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="26.457514"></attvalue>
+          <attvalue for="Size" value="1.8400877"></attvalue>
+          <attvalue for="Pos_1" value="15.837887"></attvalue>
+          <attvalue for="Pos_2" value="22.417843"></attvalue>
+          <attvalue for="Pos_3" value="43.835686"></attvalue>
+          <attvalue for="Pos_4" value="22.417843"></attvalue>
+          <attvalue for="Pos_5" value="8.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.8400877"></viz:size>
+        <viz:position x="100.0" y="22.417843" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="60395" label="Haplochromis burtoni">
+        <attvalues>
+          <attvalue for="GigaBases" value="333"></attvalue>
+          <attvalue for="TeraBytes" value="0.2"></attvalue>
+          <attvalue for="Genome_id" value="3328"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Haplochromis burtoni"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Haplochromis burtoni"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.57"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="691.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="26.286879"></attvalue>
+          <attvalue for="Size" value="1.8346584"></attvalue>
+          <attvalue for="Pos_1" value="17.672544"></attvalue>
+          <attvalue for="Pos_2" value="24.255217"></attvalue>
+          <attvalue for="Pos_3" value="47.510433"></attvalue>
+          <attvalue for="Pos_4" value="24.255217"></attvalue>
+          <attvalue for="Pos_5" value="9.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.8346584"></viz:size>
+        <viz:position x="100.0" y="24.255217" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="68429" label="Heterocephalus glaber">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="6965"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Heterocephalus glaber"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Heterocephalus glaber"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.4"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="589.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="24.269321"></attvalue>
+          <attvalue for="Size" value="1.7704633"></attvalue>
+          <attvalue for="Pos_1" value="19.443008"></attvalue>
+          <attvalue for="Pos_2" value="26.057777"></attvalue>
+          <attvalue for="Pos_3" value="51.115555"></attvalue>
+          <attvalue for="Pos_4" value="26.057777"></attvalue>
+          <attvalue for="Pos_5" value="10.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.7704633"></viz:size>
+        <viz:position x="100.0" y="26.057777" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="167607" label="Odobenus rosmarus">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="14031"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Odobenus rosmarus"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Odobenus rosmarus"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.39"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="586.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="24.207438"></attvalue>
+          <attvalue for="Size" value="1.7684942"></attvalue>
+          <attvalue for="Pos_1" value="21.211502"></attvalue>
+          <attvalue for="Pos_2" value="27.827255"></attvalue>
+          <attvalue for="Pos_3" value="54.65451"></attvalue>
+          <attvalue for="Pos_4" value="27.827255"></attvalue>
+          <attvalue for="Pos_5" value="11.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.7684942"></viz:size>
+        <viz:position x="100.0" y="27.827255" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="167610" label="Orcinus orca">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="14034"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Orcinus orca"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Orcinus orca"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.38"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="555.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="23.558437"></attvalue>
+          <attvalue for="Size" value="1.7478443"></attvalue>
+          <attvalue for="Pos_1" value="22.959347"></attvalue>
+          <attvalue for="Pos_2" value="29.585424"></attvalue>
+          <attvalue for="Pos_3" value="58.17085"></attvalue>
+          <attvalue for="Pos_4" value="29.585424"></attvalue>
+          <attvalue for="Pos_5" value="12.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.7478443"></viz:size>
+        <viz:position x="100.0" y="29.585424" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="72507" label="Microtus ochrogaster">
+        <attvalues>
+          <attvalue for="GigaBases" value="545"></attvalue>
+          <attvalue for="TeraBytes" value="0.37"></attvalue>
+          <attvalue for="Genome_id" value="10848"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Microtus ochrogaster"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Microtus ochrogaster"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.37"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="545.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="23.345236"></attvalue>
+          <attvalue for="Size" value="1.7410606"></attvalue>
+          <attvalue for="Pos_1" value="24.700407"></attvalue>
+          <attvalue for="Pos_2" value="31.329878"></attvalue>
+          <attvalue for="Pos_3" value="61.659756"></attvalue>
+          <attvalue for="Pos_4" value="31.329878"></attvalue>
+          <attvalue for="Pos_5" value="13.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.7410606"></viz:size>
+        <viz:position x="100.0" y="31.329878" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="11772" label="Gasterosteus aculeatus">
+        <attvalues>
+          <attvalue for="GigaBases" value="63"></attvalue>
+          <attvalue for="TeraBytes" value="0.04"></attvalue>
+          <attvalue for="Genome_id" value="146"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Gasterosteus aculeatus"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Gasterosteus aculeatus"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="1.057403"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="528.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="22.97825"></attvalue>
+          <attvalue for="Size" value="1.7293838"></attvalue>
+          <attvalue for="Pos_1" value="26.42979"></attvalue>
+          <attvalue for="Pos_2" value="33.065098"></attvalue>
+          <attvalue for="Pos_3" value="65.130196"></attvalue>
+          <attvalue for="Pos_4" value="33.065098"></attvalue>
+          <attvalue for="Pos_5" value="14.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.7293838"></viz:size>
+        <viz:position x="100.0" y="33.065098" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="70799" label="Leptonychotes weddellii">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="10491"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Leptonychotes weddellii"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Leptonychotes weddellii"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.34"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="522.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="22.847319"></attvalue>
+          <attvalue for="Size" value="1.7252178"></attvalue>
+          <attvalue for="Pos_1" value="28.155008"></attvalue>
+          <attvalue for="Pos_2" value="34.7924"></attvalue>
+          <attvalue for="Pos_3" value="68.5848"></attvalue>
+          <attvalue for="Pos_4" value="34.7924"></attvalue>
+          <attvalue for="Pos_5" value="15.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.7252178"></viz:size>
+        <viz:position x="100.0" y="34.7924" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="67971" label="Saimiri boliviensis">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="6907"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Saimiri boliviensis"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Saimiri boliviensis"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.324362"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="516.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="22.715633"></attvalue>
+          <attvalue for="Size" value="1.7210277"></attvalue>
+          <attvalue for="Pos_1" value="29.876038"></attvalue>
+          <attvalue for="Pos_2" value="36.515522"></attvalue>
+          <attvalue for="Pos_3" value="72.031044"></attvalue>
+          <attvalue for="Pos_4" value="36.515522"></attvalue>
+          <attvalue for="Pos_5" value="16.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.7210277"></viz:size>
+        <viz:position x="100.0" y="36.515522" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="13936" label="Ictidomys tridecemlineatus">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="472"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Ictidomys tridecemlineatus"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Ictidomys tridecemlineatus"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="1.77"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="471.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="21.702534"></attvalue>
+          <attvalue for="Size" value="1.6887928"></attvalue>
+          <attvalue for="Pos_1" value="31.564829"></attvalue>
+          <attvalue for="Pos_2" value="38.220432"></attvalue>
+          <attvalue for="Pos_3" value="75.440865"></attvalue>
+          <attvalue for="Pos_4" value="38.220432"></attvalue>
+          <attvalue for="Pos_5" value="17.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.6887928"></viz:size>
+        <viz:position x="100.0" y="38.220432" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="74665" label="Ceratotherium simum">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="11839"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Ceratotherium simum"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Ceratotherium simum"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.3"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="442.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="21.023796"></attvalue>
+          <attvalue for="Size" value="1.6671965"></attvalue>
+          <attvalue for="Pos_1" value="33.232025"></attvalue>
+          <attvalue for="Pos_2" value="39.898426"></attvalue>
+          <attvalue for="Pos_3" value="78.79685"></attvalue>
+          <attvalue for="Pos_4" value="39.898426"></attvalue>
+          <attvalue for="Pos_5" value="18.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.6671965"></viz:size>
+        <viz:position x="100.0" y="39.898426" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="13634" label="Aplysia californica">
+        <attvalues>
+          <attvalue for="GigaBases" value="75"></attvalue>
+          <attvalue for="TeraBytes" value="0.04"></attvalue>
+          <attvalue for="Genome_id" value="443"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Aplysia californica"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Aplysia californica"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.272418"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="430.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="20.73644"></attvalue>
+          <attvalue for="Size" value="1.6580534"></attvalue>
+          <attvalue for="Pos_1" value="34.89008"></attvalue>
+          <attvalue for="Pos_2" value="41.561054"></attvalue>
+          <attvalue for="Pos_3" value="82.12211"></attvalue>
+          <attvalue for="Pos_4" value="41.561054"></attvalue>
+          <attvalue for="Pos_5" value="19.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.6580534"></viz:size>
+        <viz:position x="100.0" y="41.561054" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="72689" label="Jaculus jaculus">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="10766"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Jaculus jaculus"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Jaculus jaculus"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.29"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="430.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="20.73644"></attvalue>
+          <attvalue for="Size" value="1.6580534"></attvalue>
+          <attvalue for="Pos_1" value="36.548134"></attvalue>
+          <attvalue for="Pos_2" value="43.219105"></attvalue>
+          <attvalue for="Pos_3" value="85.43821"></attvalue>
+          <attvalue for="Pos_4" value="43.219105"></attvalue>
+          <attvalue for="Pos_5" value="20.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.6580534"></viz:size>
+        <viz:position x="100.0" y="43.219105" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="72509" label="Condylura cristata">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="10849"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Condylura cristata"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Condylura cristata"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.29"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="422.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="20.542639"></attvalue>
+          <attvalue for="Size" value="1.6518869"></attvalue>
+          <attvalue for="Pos_1" value="38.20002"></attvalue>
+          <attvalue for="Pos_2" value="44.874077"></attvalue>
+          <attvalue for="Pos_3" value="88.74815"></attvalue>
+          <attvalue for="Pos_4" value="44.874077"></attvalue>
+          <attvalue for="Pos_5" value="21.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.6518869"></viz:size>
+        <viz:position x="100.0" y="44.874077" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="74669" label="Chrysochloris asiatica">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="11841"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Chrysochloris asiatica"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Chrysochloris asiatica"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.28"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="420.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="20.493902"></attvalue>
+          <attvalue for="Size" value="1.6503363"></attvalue>
+          <attvalue for="Pos_1" value="39.850357"></attvalue>
+          <attvalue for="Pos_2" value="46.52519"></attvalue>
+          <attvalue for="Pos_3" value="92.05038"></attvalue>
+          <attvalue for="Pos_4" value="46.52519"></attvalue>
+          <attvalue for="Pos_5" value="22.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.6503363"></viz:size>
+        <viz:position x="100.0" y="46.52519" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="168623" label="Chlorocebus pygerythrus">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="14168"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Chlorocebus pygerythrus"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Chlorocebus pygerythrus"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.3"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="416.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="20.396078"></attvalue>
+          <attvalue for="Size" value="1.6472237"></attvalue>
+          <attvalue for="Pos_1" value="41.49758"></attvalue>
+          <attvalue for="Pos_2" value="48.17397"></attvalue>
+          <attvalue for="Pos_3" value="95.34794"></attvalue>
+          <attvalue for="Pos_4" value="48.17397"></attvalue>
+          <attvalue for="Pos_5" value="23.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.6472237"></viz:size>
+        <viz:position x="100.0" y="48.17397" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="74673" label="Elephantulus edwardii">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="11843"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Elephantulus edwardii"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Elephantulus edwardii"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.27"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="402.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="20.049938"></attvalue>
+          <attvalue for="Size" value="1.6362101"></attvalue>
+          <attvalue for="Pos_1" value="43.13379"></attvalue>
+          <attvalue for="Pos_2" value="49.815685"></attvalue>
+          <attvalue for="Pos_3" value="98.63137"></attvalue>
+          <attvalue for="Pos_4" value="49.815685"></attvalue>
+          <attvalue for="Pos_5" value="24.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.6362101"></viz:size>
+        <viz:position x="100.0" y="49.815685" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="72511" label="Eptesicus fuscus">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="11703"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Eptesicus fuscus"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Eptesicus fuscus"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.27"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="401.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="20.024984"></attvalue>
+          <attvalue for="Size" value="1.6354162"></attvalue>
+          <attvalue for="Pos_1" value="44.769207"></attvalue>
+          <attvalue for="Pos_2" value="51.4515"></attvalue>
+          <attvalue for="Pos_3" value="101.903"></attvalue>
+          <attvalue for="Pos_4" value="51.4515"></attvalue>
+          <attvalue for="Pos_5" value="25.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.6354162"></viz:size>
+        <viz:position x="100.0" y="51.4515" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="74733" label="Octodon degus">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="11848"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Octodon degus"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Octodon degus"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.25"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="389.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="19.723083"></attvalue>
+          <attvalue for="Size" value="1.6258103"></attvalue>
+          <attvalue for="Pos_1" value="46.395016"></attvalue>
+          <attvalue for="Pos_2" value="53.08211"></attvalue>
+          <attvalue for="Pos_3" value="105.16422"></attvalue>
+          <attvalue for="Pos_4" value="53.08211"></attvalue>
+          <attvalue for="Pos_5" value="26.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.6258103"></viz:size>
+        <viz:position x="100.0" y="53.08211" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="12436" label="Oreochromis niloticus">
+        <attvalues>
+          <attvalue for="GigaBases" value="293"></attvalue>
+          <attvalue for="TeraBytes" value="0.8"></attvalue>
+          <attvalue for="Genome_id" value="197"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Oreochromis niloticus"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Oreochromis niloticus"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.849899"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="373.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="19.313208"></attvalue>
+          <attvalue for="Size" value="1.6127688"></attvalue>
+          <attvalue for="Pos_1" value="48.007786"></attvalue>
+          <attvalue for="Pos_2" value="54.7014"></attvalue>
+          <attvalue for="Pos_3" value="108.4028"></attvalue>
+          <attvalue for="Pos_4" value="54.7014"></attvalue>
+          <attvalue for="Pos_5" value="27.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.6127688"></viz:size>
+        <viz:position x="100.0" y="54.7014" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="12575" label="Erinaceus europaeus">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="227"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Erinaceus europaeus"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Erinaceus europaeus"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.24"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="371.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="19.26136"></attvalue>
+          <attvalue for="Size" value="1.611119"></attvalue>
+          <attvalue for="Pos_1" value="49.618904"></attvalue>
+          <attvalue for="Pos_2" value="56.313343"></attvalue>
+          <attvalue for="Pos_3" value="111.626686"></attvalue>
+          <attvalue for="Pos_4" value="56.313343"></attvalue>
+          <attvalue for="Pos_5" value="28.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.611119"></viz:size>
+        <viz:position x="100.0" y="56.313343" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="20373" label="Ochotona princeps">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="771"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Ochotona princeps"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Ochotona princeps"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.23"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="364.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="19.078785"></attvalue>
+          <attvalue for="Size" value="1.6053097"></attvalue>
+          <attvalue for="Pos_1" value="51.224213"></attvalue>
+          <attvalue for="Pos_2" value="57.92156"></attvalue>
+          <attvalue for="Pos_3" value="114.84312"></attvalue>
+          <attvalue for="Pos_4" value="57.92156"></attvalue>
+          <attvalue for="Pos_5" value="29.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.6053097"></viz:size>
+        <viz:position x="100.0" y="57.92156" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="77797" label="Mesocricetus auratus">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="11998"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Mesocricetus auratus"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Mesocricetus auratus"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.23"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="363.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="19.052559"></attvalue>
+          <attvalue for="Size" value="1.6044754"></attvalue>
+          <attvalue for="Pos_1" value="52.82869"></attvalue>
+          <attvalue for="Pos_2" value="59.52645"></attvalue>
+          <attvalue for="Pos_3" value="118.0529"></attvalue>
+          <attvalue for="Pos_4" value="59.52645"></attvalue>
+          <attvalue for="Pos_5" value="30.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.6044754"></viz:size>
+        <viz:position x="100.0" y="59.52645" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="74667" label="Orycteropus afer">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="11840"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Orycteropus afer"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Orycteropus afer"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.23"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="362.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="19.026299"></attvalue>
+          <attvalue for="Size" value="1.6036397"></attvalue>
+          <attvalue for="Pos_1" value="54.432327"></attvalue>
+          <attvalue for="Pos_2" value="61.13051"></attvalue>
+          <attvalue for="Pos_3" value="121.26102"></attvalue>
+          <attvalue for="Pos_4" value="61.13051"></attvalue>
+          <attvalue for="Pos_5" value="31.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.6036397"></viz:size>
+        <viz:position x="100.0" y="61.13051" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="9553" label="Anopheles gambiae">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="46"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Anopheles gambiae"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Anopheles gambiae"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.256361"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="346.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="18.601076"></attvalue>
+          <attvalue for="Size" value="1.59011"></attvalue>
+          <attvalue for="Pos_1" value="56.022438"></attvalue>
+          <attvalue for="Pos_2" value="62.727383"></attvalue>
+          <attvalue for="Pos_3" value="124.454765"></attvalue>
+          <attvalue for="Pos_4" value="62.727383"></attvalue>
+          <attvalue for="Pos_5" value="32.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.59011"></viz:size>
+        <viz:position x="100.0" y="62.727383" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="60397" label="Neolamprologus brichardi">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="3329"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Neolamprologus brichardi"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Neolamprologus brichardi"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.318812"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="326.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="18.05547"></attvalue>
+          <attvalue for="Size" value="1.5727497"></attvalue>
+          <attvalue for="Pos_1" value="57.59519"></attvalue>
+          <attvalue for="Pos_2" value="64.308815"></attvalue>
+          <attvalue for="Pos_3" value="127.61763"></attvalue>
+          <attvalue for="Pos_4" value="64.308815"></attvalue>
+          <attvalue for="Pos_5" value="33.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.5727497"></viz:size>
+        <viz:position x="100.0" y="64.308815" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="60399" label="Pundamilia nyererei">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="3330"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Pundamilia nyererei"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Pundamilia nyererei"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.290131"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="309.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="17.578396"></attvalue>
+          <attvalue for="Size" value="1.5575701"></attvalue>
+          <attvalue for="Pos_1" value="59.15276"></attvalue>
+          <attvalue for="Pos_2" value="65.87398"></attvalue>
+          <attvalue for="Pos_3" value="130.74796"></attvalue>
+          <attvalue for="Pos_4" value="65.87398"></attvalue>
+          <attvalue for="Pos_5" value="34.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.5575701"></viz:size>
+        <viz:position x="100.0" y="65.87398" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="108703" label="Chlorocebus aethiops">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="13134"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Chlorocebus aethiops"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Chlorocebus aethiops"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.200952"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="303.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="17.406895"></attvalue>
+          <attvalue for="Size" value="1.5521133"></attvalue>
+          <attvalue for="Pos_1" value="60.704872"></attvalue>
+          <attvalue for="Pos_2" value="67.42882"></attvalue>
+          <attvalue for="Pos_3" value="133.85764"></attvalue>
+          <attvalue for="Pos_4" value="67.42882"></attvalue>
+          <attvalue for="Pos_5" value="35.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.5521133"></viz:size>
+        <viz:position x="100.0" y="67.42882" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="108707" label="Chlorocebus sabaeus">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="13136"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Chlorocebus sabaeus"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Chlorocebus sabaeus"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.21"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="298.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="17.262676"></attvalue>
+          <attvalue for="Size" value="1.5475246"></attvalue>
+          <attvalue for="Pos_1" value="62.252396"></attvalue>
+          <attvalue for="Pos_2" value="68.97864"></attvalue>
+          <attvalue for="Pos_3" value="136.95728"></attvalue>
+          <attvalue for="Pos_4" value="68.97864"></attvalue>
+          <attvalue for="Pos_5" value="36.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.5475246"></viz:size>
+        <viz:position x="100.0" y="68.97864" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="174834" label="Glossina fuscipes">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="15034"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Glossina fuscipes"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Glossina fuscipes"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.21"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="291.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="17.058722"></attvalue>
+          <attvalue for="Size" value="1.541035"></attvalue>
+          <attvalue for="Pos_1" value="63.79343"></attvalue>
+          <attvalue for="Pos_2" value="70.52291"></attvalue>
+          <attvalue for="Pos_3" value="140.04582"></attvalue>
+          <attvalue for="Pos_4" value="70.52291"></attvalue>
+          <attvalue for="Pos_5" value="37.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.541035"></viz:size>
+        <viz:position x="100.0" y="70.52291" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="20403" label="Macaca fascicularis">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="776"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="Accno" value="Organism Overview"></attvalue>
+          <attvalue for="Title" value="Macaca fascicularis"></attvalue>
+          <attvalue for="Project_type" value="Organism Overview"></attvalue>
+          <attvalue for="Target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="Target_material" value="Organism Overview"></attvalue>
+          <attvalue for="Target_scope" value="Organism Overview"></attvalue>
+          <attvalue for="Organism_name" value="Macaca fascicularis"></attvalue>
+          <attvalue for="Kingdom" value="Eukaryotes"></attvalue>
+          <attvalue for="Method" value="Organism Overview"></attvalue>
+          <attvalue for="Data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.17"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="284.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="16.852299"></attvalue>
+          <attvalue for="Size" value="1.5344671"></attvalue>
+          <attvalue for="Pos_1" value="65.327896"></attvalue>
+          <attvalue for="Pos_2" value="72.06067"></attvalue>
+          <attvalue for="Pos_3" value="143.12134"></attvalue>
+          <attvalue for="Pos_4" value="72.06067"></attvalue>
+          <attvalue for="Pos_5" value="38.0"></attvalue>
+          <attvalue for="Horiz" value="2.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.5344671"></viz:size>
+        <viz:position x="100.0" y="72.06067" z="0.0"></viz:position>
+        <viz:color r="248" g="77" b="77"></viz:color>
+      </node>
+      <node id="28889" label="The 1000 Genomes Project">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="39509"></attvalue>
+          <attvalue for="Accno" value="PRJNA28889"></attvalue>
+          <attvalue for="Title" value="The 1000 Genomes Project"></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="115.54"></attvalue>
+          <attvalue for="SRA: Gbases" value="76749.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="277.0361"></attvalue>
+          <attvalue for="Size" value="9.813046"></attvalue>
+          <attvalue for="Pos_1" value="1.0"></attvalue>
+          <attvalue for="Pos_2" value="1.0"></attvalue>
+          <attvalue for="Pos_3" value="1.0"></attvalue>
+          <attvalue for="Pos_4" value="1.0"></attvalue>
+          <attvalue for="Pos_5" value="1.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="9.813046"></viz:size>
+        <viz:position x="50.0" y="1.0" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+      <node id="158497" label="NHGRI Large Scale Sequencing Program">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="41010"></attvalue>
+          <attvalue for="Accno" value="PRJNA158497"></attvalue>
+          <attvalue for="Title" value="NHGRI Large Scale Sequencing Program"></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="30.46"></attvalue>
+          <attvalue for="SRA: Gbases" value="58017.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="240.86719"></attvalue>
+          <attvalue for="Size" value="8.662217"></attvalue>
+          <attvalue for="Pos_1" value="9.662217"></attvalue>
+          <attvalue for="Pos_2" value="10.237632"></attvalue>
+          <attvalue for="Pos_3" value="19.475264"></attvalue>
+          <attvalue for="Pos_4" value="10.237632"></attvalue>
+          <attvalue for="Pos_5" value="2.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="8.662217"></viz:size>
+        <viz:position x="50.0" y="10.237632" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+      <node id="176379" label="Tumor Sequencing Project (TSP)">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="41183"></attvalue>
+          <attvalue for="Accno" value="PRJNA176379"></attvalue>
+          <attvalue for="Title" value="Tumor Sequencing Project (TSP)"></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="22.32"></attvalue>
+          <attvalue for="SRA: Gbases" value="45356.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="212.96948"></attvalue>
+          <attvalue for="Size" value="7.7745624"></attvalue>
+          <attvalue for="Pos_1" value="17.436779"></attvalue>
+          <attvalue for="Pos_2" value="18.456022"></attvalue>
+          <attvalue for="Pos_3" value="35.912045"></attvalue>
+          <attvalue for="Pos_4" value="18.456022"></attvalue>
+          <attvalue for="Pos_5" value="3.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="7.7745624"></viz:size>
+        <viz:position x="50.0" y="18.456022" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+      <node id="167910" label="Organismal Sequencing">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="41064"></attvalue>
+          <attvalue for="Accno" value="PRJNA167910"></attvalue>
+          <attvalue for="Title" value="Organismal Sequencing"></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="17.73"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="1451.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="19912.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="801.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="141.1099"></attvalue>
+          <attvalue for="Size" value="5.4881196"></attvalue>
+          <attvalue for="Pos_1" value="22.9249"></attvalue>
+          <attvalue for="Pos_2" value="25.087362"></attvalue>
+          <attvalue for="Pos_3" value="49.174725"></attvalue>
+          <attvalue for="Pos_4" value="25.087362"></attvalue>
+          <attvalue for="Pos_5" value="4.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="5.4881196"></viz:size>
+        <viz:position x="50.0" y="25.087362" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+      <node id="43021" label="NIH Human Microbiome Project (HMP) Roadmap Project">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="40180"></attvalue>
+          <attvalue for="Accno" value="PRJNA43021"></attvalue>
+          <attvalue for="Title" value="NIH Human Microbiome Project (HMP) Roadmap Project"></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="16.83"></attvalue>
+          <attvalue for="SRA: Gbases" value="19903.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="141.07799"></attvalue>
+          <attvalue for="Size" value="5.487105"></attvalue>
+          <attvalue for="Pos_1" value="28.412004"></attvalue>
+          <attvalue for="Pos_2" value="30.574974"></attvalue>
+          <attvalue for="Pos_3" value="60.14995"></attvalue>
+          <attvalue for="Pos_4" value="30.574974"></attvalue>
+          <attvalue for="Pos_5" value="5.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="5.487105"></viz:size>
+        <viz:position x="50.0" y="30.574974" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+      <node id="167909" label="NHGRI Unassigned">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="41064"></attvalue>
+          <attvalue for="Accno" value="PRJNA167909"></attvalue>
+          <attvalue for="Title" value="NHGRI Unassigned"></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="6.84"></attvalue>
+          <attvalue for="SRA: Gbases" value="13527.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="116.30563"></attvalue>
+          <attvalue for="Size" value="4.698893"></attvalue>
+          <attvalue for="Pos_1" value="33.110897"></attvalue>
+          <attvalue for="Pos_2" value="35.667973"></attvalue>
+          <attvalue for="Pos_3" value="70.335945"></attvalue>
+          <attvalue for="Pos_4" value="35.667973"></attvalue>
+          <attvalue for="Pos_5" value="6.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="4.698893"></viz:size>
+        <viz:position x="50.0" y="35.667973" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+      <node id="50617" label="Mouse ENCODE project">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="40379"></attvalue>
+          <attvalue for="Accno" value="PRJNA50617"></attvalue>
+          <attvalue for="Title" value="The mouse ENCODE (ENCyclopedia Of DNA Elements) Project."></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="2.65"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="949161.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="4011.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="63.332455"></attvalue>
+          <attvalue for="Size" value="3.013382"></attvalue>
+          <attvalue for="Pos_1" value="36.12428"></attvalue>
+          <attvalue for="Pos_2" value="39.524113"></attvalue>
+          <attvalue for="Pos_3" value="78.048225"></attvalue>
+          <attvalue for="Pos_4" value="39.524113"></attvalue>
+          <attvalue for="Pos_5" value="7.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="3.013382"></viz:size>
+        <viz:position x="50.0" y="39.524113" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+      <node id="36315" label="modENCODE Project">
+        <attvalues>
+          <attvalue for="GigaBases" value="0"></attvalue>
+          <attvalue for="TeraBytes" value="0"></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="39895"></attvalue>
+          <attvalue for="Accno" value="PRJNA36315"></attvalue>
+          <attvalue for="Title" value="The Model Organism ENCyclopedia Of DNA Elements (modENCODE) Project"></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="2.73"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="276052.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="2997.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="8816.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="54.74486"></attvalue>
+          <attvalue for="Size" value="2.7401402"></attvalue>
+          <attvalue for="Pos_1" value="38.864418"></attvalue>
+          <attvalue for="Pos_2" value="42.40087"></attvalue>
+          <attvalue for="Pos_3" value="83.80174"></attvalue>
+          <attvalue for="Pos_4" value="42.40087"></attvalue>
+          <attvalue for="Pos_5" value="8.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="2.7401402"></viz:size>
+        <viz:position x="50.0" y="42.40087" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+      <node id="176378" label="Evolution of the human proteome: Completing the Chordate Nodes">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="41183"></attvalue>
+          <attvalue for="Accno" value="PRJNA176378"></attvalue>
+          <attvalue for="Title" value="Evolution of the human proteome: Completing the Chordate Nodes"></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="1.47"></attvalue>
+          <attvalue for="SRA: Gbases" value="1323.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="36.373066"></attvalue>
+          <attvalue for="Size" value="2.1555827"></attvalue>
+          <attvalue for="Pos_1" value="41.02"></attvalue>
+          <attvalue for="Pos_2" value="44.848732"></attvalue>
+          <attvalue for="Pos_3" value="88.697464"></attvalue>
+          <attvalue for="Pos_4" value="44.848732"></attvalue>
+          <attvalue for="Pos_5" value="9.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="2.1555827"></viz:size>
+        <viz:position x="50.0" y="44.848732" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+      <node id="177802" label="Tetrahymena comparative genome project">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="41199"></attvalue>
+          <attvalue for="Accno" value="PRJNA177802"></attvalue>
+          <attvalue for="Title" value="Tetrahymena comparative genome project"></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.31"></attvalue>
+          <attvalue for="SRA: Gbases" value="508.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="22.538855"></attvalue>
+          <attvalue for="Size" value="1.715403"></attvalue>
+          <attvalue for="Pos_1" value="42.735405"></attvalue>
+          <attvalue for="Pos_2" value="46.784225"></attvalue>
+          <attvalue for="Pos_3" value="92.56845"></attvalue>
+          <attvalue for="Pos_4" value="46.784225"></attvalue>
+          <attvalue for="Pos_5" value="10.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.715403"></viz:size>
+        <viz:position x="50.0" y="46.784225" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+      <node id="176382" label="Fungal Genome Initiative">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="41183"></attvalue>
+          <attvalue for="Accno" value="PRJNA176382"></attvalue>
+          <attvalue for="Title" value="Fungal Genome Initiative"></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.17"></attvalue>
+          <attvalue for="SRA: Gbases" value="266.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="16.309507"></attvalue>
+          <attvalue for="Size" value="1.5171964"></attvalue>
+          <attvalue for="Pos_1" value="44.2526"></attvalue>
+          <attvalue for="Pos_2" value="48.400528"></attvalue>
+          <attvalue for="Pos_3" value="95.801056"></attvalue>
+          <attvalue for="Pos_4" value="48.400528"></attvalue>
+          <attvalue for="Pos_5" value="11.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.5171964"></viz:size>
+        <viz:position x="50.0" y="48.400528" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+      <node id="163993" label="i5k initiative">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="41038"></attvalue>
+          <attvalue for="Accno" value="PRJNA163993"></attvalue>
+          <attvalue for="Title" value="i5k initiative"></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.070952"></attvalue>
+          <attvalue for="SRA: Gbases" value="48.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="6.928203"></attvalue>
+          <attvalue for="Size" value="1.2187002"></attvalue>
+          <attvalue for="Pos_1" value="45.471302"></attvalue>
+          <attvalue for="Pos_2" value="49.768475"></attvalue>
+          <attvalue for="Pos_3" value="98.53695"></attvalue>
+          <attvalue for="Pos_4" value="49.768475"></attvalue>
+          <attvalue for="Pos_5" value="12.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.2187002"></viz:size>
+        <viz:position x="50.0" y="49.768475" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+      <node id="51445" label="Human Gut Microbiome in Ulcerative Colitis">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="40401"></attvalue>
+          <attvalue for="Accno" value="PRJNA51445"></attvalue>
+          <attvalue for="Title" value="The Role of the Gut Microbiota in Ulcerative Colitis - Demonstration project for Human Microbiome Project (HMP)"></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.051688"></attvalue>
+          <attvalue for="SRA: Gbases" value="44.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="6.6332498"></attvalue>
+          <attvalue for="Size" value="1.2093153"></attvalue>
+          <attvalue for="Pos_1" value="46.68062"></attvalue>
+          <attvalue for="Pos_2" value="50.982483"></attvalue>
+          <attvalue for="Pos_3" value="100.964966"></attvalue>
+          <attvalue for="Pos_4" value="50.982483"></attvalue>
+          <attvalue for="Pos_5" value="13.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.2093153"></viz:size>
+        <viz:position x="50.0" y="50.982483" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+      <node id="51439" label="Study of the human skin microbiome associated with acne">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="40401"></attvalue>
+          <attvalue for="Accno" value="PRJNA51439"></attvalue>
+          <attvalue for="Title" value="Metagenomic study of the human skin microbiome associated with acne - Demonstration project for Human Microbiome Project (HMP)"></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.032935"></attvalue>
+          <attvalue for="SRA: Gbases" value="33.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="5.7445626"></attvalue>
+          <attvalue for="Size" value="1.1810389"></attvalue>
+          <attvalue for="Pos_1" value="47.861656"></attvalue>
+          <attvalue for="Pos_2" value="52.177658"></attvalue>
+          <attvalue for="Pos_3" value="103.355316"></attvalue>
+          <attvalue for="Pos_4" value="52.177658"></attvalue>
+          <attvalue for="Pos_5" value="14.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.1810389"></viz:size>
+        <viz:position x="50.0" y="52.177658" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+      <node id="51443" label="Human Vaginal Microbiome">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="40401"></attvalue>
+          <attvalue for="Accno" value="PRJNA51443"></attvalue>
+          <attvalue for="Title" value="The Vaginal Microbiome: Disease, Genetics and the Environment - Demonstration project for Human Microbiome Project (HMP)"></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.044313"></attvalue>
+          <attvalue for="SRA: Gbases" value="17.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="4.1231055"></attvalue>
+          <attvalue for="Size" value="1.129447"></attvalue>
+          <attvalue for="Pos_1" value="48.991104"></attvalue>
+          <attvalue for="Pos_2" value="53.3329"></attvalue>
+          <attvalue for="Pos_3" value="105.6658"></attvalue>
+          <attvalue for="Pos_4" value="53.3329"></attvalue>
+          <attvalue for="Pos_5" value="15.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.129447"></viz:size>
+        <viz:position x="50.0" y="53.3329" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+      <node id="51441" label="Human Gut Microbiome in Crohn's Disease">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="40401"></attvalue>
+          <attvalue for="Accno" value="PRJNA51441"></attvalue>
+          <attvalue for="Title" value="Effect of Crohn's Disease Risk Alleles on Enteric Microbiota - Demonstration project for Human Microbiome Project (HMP)"></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.02167"></attvalue>
+          <attvalue for="SRA: Gbases" value="15.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="3.8729835"></attvalue>
+          <attvalue for="Size" value="1.1214886"></attvalue>
+          <attvalue for="Pos_1" value="50.11259"></attvalue>
+          <attvalue for="Pos_2" value="54.45837"></attvalue>
+          <attvalue for="Pos_3" value="107.91674"></attvalue>
+          <attvalue for="Pos_4" value="54.45837"></attvalue>
+          <attvalue for="Pos_5" value="16.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.1214886"></viz:size>
+        <viz:position x="50.0" y="54.45837" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+      <node id="62343" label="Human Skin Microbiome in Disease States">
+        <attvalues>
+          <attvalue for="GigaBases" value=""></attvalue>
+          <attvalue for="TeraBytes" value=""></attvalue>
+          <attvalue for="Genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="40576"></attvalue>
+          <attvalue for="Accno" value="PRJNA62343"></attvalue>
+          <attvalue for="Title" value="Gene-Environment Interactions at the Skin Surface - Demonstration project for Human Microbiome Project (HMP)"></attvalue>
+          <attvalue for="Project_type" value="TopAdmin"></attvalue>
+          <attvalue for="Target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="Target_material" value="TopAdmin"></attvalue>
+          <attvalue for="Target_scope" value="TopAdmin"></attvalue>
+          <attvalue for="Organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="Kingdom" value="TopAdmin"></attvalue>
+          <attvalue for="Method" value="TopAdmin"></attvalue>
+          <attvalue for="Data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.01253"></attvalue>
+          <attvalue for="SRA: Gbases" value="5.0"></attvalue>
+          <attvalue for="Sqrt_Gbases" value="2.236068"></attvalue>
+          <attvalue for="Size" value="1.0694048"></attvalue>
+          <attvalue for="Pos_1" value="51.181995"></attvalue>
+          <attvalue for="Pos_2" value="55.553818"></attvalue>
+          <attvalue for="Pos_3" value="110.107635"></attvalue>
+          <attvalue for="Pos_4" value="55.553818"></attvalue>
+          <attvalue for="Pos_5" value="17.0"></attvalue>
+          <attvalue for="Horiz" value="1.0"></attvalue>
+        </attvalues>
+        <viz:size value="1.0694048"></viz:size>
+        <viz:position x="50.0" y="55.553818" z="0.0"></viz:position>
+        <viz:color r="77" g="248" b="248"></viz:color>
+      </node>
+    </nodes>
+    <edges></edges>
+  </graph>
+</gexf>

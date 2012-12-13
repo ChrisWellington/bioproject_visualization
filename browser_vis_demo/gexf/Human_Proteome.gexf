@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2012-10-23">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="G bases" title="GigaBases" type="float"></attribute>
+      <attribute id="T bytes" title="TeraBytes" type="float"></attribute>
+      <attribute id="genome_id" title="Genome_id" type="string"></attribute>
+      <attribute id="create_date" title="create_date" type="string"></attribute>
+      <attribute id="accno" title="Accno" type="string"></attribute>
+      <attribute id="title" title="Title" type="string"></attribute>
+      <attribute id="project_type" title="Project_type" type="string"></attribute>
+      <attribute id="target_capture" title="Target_capture" type="string"></attribute>
+      <attribute id="target_material" title="Target_material" type="string"></attribute>
+      <attribute id="target_sample_scope" title="Target_scope" type="string"></attribute>
+      <attribute id="organism_name" title="Organism_name" type="string"></attribute>
+      <attribute id="organism_supergroup" title="Kingdom" type="string"></attribute>
+      <attribute id="method" title="Method" type="string"></attribute>
+      <attribute id="data_type" title="Data_type" type="string"></attribute>
+      <attribute id="SRA: Tbytes" title="SRA: Tbytes" type="float"></attribute>
+      <attribute id="GEO: Supplementary Mbytes" title="GEO: Supplementary Mbytes" type="float"></attribute>
+      <attribute id="SRA: Gbases" title="SRA: Gbases" type="float"></attribute>
+      <attribute id="GEO: Processed Mbytes" title="GEO: Processed Mbytes" type="float"></attribute>
+      <attribute id="GEO: Spots" title="GEO: Spots" type="float"></attribute>
+    </attributes>
+    <nodes>
+      <node id="72169" label="Lepisosteus oculatus">
+        <attvalues>
+          <attvalue for="genome_id" value="10597"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Lepisosteus oculatus"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Lepisosteus oculatus"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.086208"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="130.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="16.307774"></viz:size>
+        <viz:position x="138.12878" y="-47.243" z="0.0"></viz:position>
+        <viz:color r="192" g="61" b="225"></viz:color>
+      </node>
+      <node id="68247" label="Lepisosteus oculatus">
+        <attvalues>
+          <attvalue for="genome_id" value="7918"></attvalue>
+          <attvalue for="create_date" value="2011-12-16"></attvalue>
+          <attvalue for="accno" value="PRJNA68247"></attvalue>
+          <attvalue for="title" value="Lepisosteus oculatus genome sequencing"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Lepisosteus oculatus"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="RawSequenceReads"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.086208"></attvalue>
+          <attvalue for="SRA: Gbases" value="130.0"></attvalue>
+        </attvalues>
+        <viz:size value="16.307774"></viz:size>
+        <viz:position x="87.63933" y="-26.90281" z="0.0"></viz:position>
+        <viz:color r="61" g="225" b="126"></viz:color>
+      </node>
+      <node id="78711" label="Chrysemys picta">
+        <attvalues>
+          <attvalue for="genome_id" value="12107"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Chrysemys picta"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Chrysemys picta"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.22"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="127.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="15.998462"></viz:size>
+        <viz:position x="5.733009" y="-142.70117" z="0.0"></viz:position>
+        <viz:color r="192" g="61" b="225"></viz:color>
+      </node>
+      <node id="78657" label="Chrysemys picta bellii">
+        <attvalues>
+          <attvalue for="genome_id" value="8479"></attvalue>
+          <attvalue for="create_date" value="2012-01-06"></attvalue>
+          <attvalue for="accno" value="PRJNA78657"></attvalue>
+          <attvalue for="title" value="Chrysemys picta bellii Genome sequencing"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Chrysemys picta bellii"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Assembly"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.22"></attvalue>
+          <attvalue for="SRA: Gbases" value="127.0"></attvalue>
+        </attvalues>
+        <viz:size value="15.998462"></viz:size>
+        <viz:position x="3.2657685" y="-88.9433" z="0.0"></viz:position>
+        <viz:color r="61" g="126" b="225"></viz:color>
+      </node>
+      <node id="59451" label="Latimeria chalumnae">
+        <attvalues>
+          <attvalue for="G bases" value="79.0"></attvalue>
+          <attvalue for="T bytes" value="0.05"></attvalue>
+          <attvalue for="genome_id" value="3262"></attvalue>
+          <attvalue for="create_date" value="Organism Overview"></attvalue>
+          <attvalue for="accno" value="Organism Overview"></attvalue>
+          <attvalue for="title" value="Latimeria chalumnae"></attvalue>
+          <attvalue for="project_type" value="Organism Overview"></attvalue>
+          <attvalue for="target_capture" value="Organism Overview"></attvalue>
+          <attvalue for="target_material" value="Organism Overview"></attvalue>
+          <attvalue for="target_sample_scope" value="Organism Overview"></attvalue>
+          <attvalue for="organism_name" value="Latimeria chalumnae"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Organism Overview"></attvalue>
+          <attvalue for="data_type" value="Organism Overview"></attvalue>
+          <attvalue for="SRA: Tbytes" value="1.173957"></attvalue>
+          <attvalue for="GEO: Supplementary Mbytes" value="0.0"></attvalue>
+          <attvalue for="SRA: Gbases" value="1067.0"></attvalue>
+          <attvalue for="GEO: Processed Mbytes" value="0.0"></attvalue>
+          <attvalue for="GEO: Spots" value="0.0"></attvalue>
+        </attvalues>
+        <viz:size value="39.13012"></viz:size>
+        <viz:position x="82.913704" y="141.6442" z="0.0"></viz:position>
+        <viz:color r="192" g="61" b="225"></viz:color>
+      </node>
+      <node id="56111" label="Latimeria chalumnae">
+        <attvalues>
+          <attvalue for="genome_id" value="7897"></attvalue>
+          <attvalue for="create_date" value="2011-09-09"></attvalue>
+          <attvalue for="accno" value="PRJNA56111"></attvalue>
+          <attvalue for="title" value="Latimeria chalumnae Genome sequencing"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Latimeria chalumnae"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="Assembly"></attvalue>
+          <attvalue for="SRA: Tbytes" value="1.12"></attvalue>
+          <attvalue for="SRA: Gbases" value="988.0"></attvalue>
+        </attvalues>
+        <viz:size value="38.61442"></viz:size>
+        <viz:position x="-25.535028" y="127.09045" z="0.0"></viz:position>
+        <viz:color r="61" g="126" b="225"></viz:color>
+      </node>
+      <node id="77699" label="Latimeria chalumnae">
+        <attvalues>
+          <attvalue for="G bases" value="79.0"></attvalue>
+          <attvalue for="T bytes" value="0.05"></attvalue>
+          <attvalue for="genome_id" value="7897"></attvalue>
+          <attvalue for="create_date" value="2011-11-17"></attvalue>
+          <attvalue for="accno" value="PRJNA77699"></attvalue>
+          <attvalue for="title" value="Latimeria chalumnae Transcriptome or Gene expression"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Transcriptome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Latimeria chalumnae"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="RawSequenceReads"></attvalue>
+          <attvalue for="SRA: Tbytes" value="0.053957"></attvalue>
+          <attvalue for="SRA: Gbases" value="79.0"></attvalue>
+        </attvalues>
+        <viz:size value="5.0"></viz:size>
+        <viz:position x="53.564217" y="73.875496" z="0.0"></viz:position>
+        <viz:color r="61" g="225" b="126"></viz:color>
+      </node>
+      <node id="177923" label="Podocnemis expansa">
+        <attvalues>
+          <attvalue for="genome_id" value="44507"></attvalue>
+          <attvalue for="create_date" value="2012-10-18"></attvalue>
+          <attvalue for="accno" value="PRJNA177923"></attvalue>
+          <attvalue for="title" value="Podocnemis expansa (Arrau river turtle) Genome"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Podocnemis expansa"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="RawSequenceReads"></attvalue>
+        </attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="-66.74855" y="-40.170723" z="0.0"></viz:position>
+        <viz:color r="61" g="225" b="126"></viz:color>
+      </node>
+      <node id="177958" label="Apalone spinifera">
+        <attvalues>
+          <attvalue for="genome_id" value="55534"></attvalue>
+          <attvalue for="create_date" value="2012-10-18"></attvalue>
+          <attvalue for="accno" value="PRJNA177958"></attvalue>
+          <attvalue for="title" value="Apalone spinifera Genome sequencing"></attvalue>
+          <attvalue for="project_type" value="Submission"></attvalue>
+          <attvalue for="target_capture" value="Whole"></attvalue>
+          <attvalue for="target_material" value="Genome"></attvalue>
+          <attvalue for="target_sample_scope" value="Monoisolate"></attvalue>
+          <attvalue for="organism_name" value="Apalone spinifera"></attvalue>
+          <attvalue for="organism_supergroup" value="Eukaryotes"></attvalue>
+          <attvalue for="method" value="Sequencing"></attvalue>
+          <attvalue for="data_type" value="RawSequenceReads"></attvalue>
+        </attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="-81.001" y="23.440351" z="0.0"></viz:position>
+        <viz:color r="61" g="225" b="126"></viz:color>
+      </node>
+      <node id="176378" label="TopAdmin">
+        <attvalues>
+          <attvalue for="genome_id" value="TopAdmin"></attvalue>
+          <attvalue for="create_date" value="2012-10-01"></attvalue>
+          <attvalue for="accno" value="PRJNA176378"></attvalue>
+          <attvalue for="title" value="Evolution of the human proteome: Completing the Chordate Nodes"></attvalue>
+          <attvalue for="project_type" value="TopAdmin"></attvalue>
+          <attvalue for="target_capture" value="TopAdmin"></attvalue>
+          <attvalue for="target_material" value="TopAdmin"></attvalue>
+          <attvalue for="target_sample_scope" value="TopAdmin"></attvalue>
+          <attvalue for="organism_name" value="TopAdmin"></attvalue>
+          <attvalue for="organism_supergroup" value="TopAdmin"></attvalue>
+          <attvalue for="method" value="TopAdmin"></attvalue>
+          <attvalue for="data_type" value="TopAdmin"></attvalue>
+          <attvalue for="SRA: Tbytes" value="1.47"></attvalue>
+          <attvalue for="SRA: Gbases" value="1323.0"></attvalue>
+        </attvalues>
+        <viz:size value="40.0"></viz:size>
+        <viz:position x="-2.6972942" y="7.367795" z="0.0"></viz:position>
+        <viz:color r="225" g="61" b="61"></viz:color>
+      </node>
+      <node id="178036" label="178036">
+        <attvalues></attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="-88.21039" y="-55.917233" z="0.0"></viz:position>
+        <viz:color r="192" g="225" b="61"></viz:color>
+      </node>
+      <node id="178037" label="178037">
+        <attvalues></attvalues>
+        <viz:size value="1.0"></viz:size>
+        <viz:position x="-107.044586" y="28.474144" z="0.0"></viz:position>
+        <viz:color r="192" g="225" b="61"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="421" source="72169" target="68247">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="524" source="78711" target="78657">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="357" source="59451" target="56111">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="2763" source="59451" target="77699">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="19" source="176378" target="68247">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="21" source="176378" target="78657">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="17" source="176378" target="56111">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="25" source="176378" target="77699">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="23" source="176378" target="177923">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="24" source="176378" target="177958">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="485" source="178036" target="177923">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="507" source="178037" target="177958">
+        <attvalues></attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>

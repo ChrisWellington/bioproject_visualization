@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>BioProject visualization</title>
+    <link href="css/favicon.ico" type="image/png" rel="icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/base/jquery-ui.css" rel="stylesheet" type="text/css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+    <!-- Declare the GEXF graph file to load; change the currently loaded file -->
+    <script type="text/javascript"> 
+        // Slider Defaults 
+        var nodeSize = [1, 10];
+        var edgeWidth = 5;
+        var labelThreshold = 17;
+        var labelSize = 15;
+    
+        function sliderDefaults() {
+            setGraphProperties( { 'minNodeSize': nodeSize[0], 'maxNodeSize':nodeSize[1], 'minEdgeSize':edgeWidth, 'maxEdgeSize':edgeWidth });
+            setDrawingProperties( { 'labelThreshold':labelThreshold, 'defaultLabelSize':labelSize }); 
+            
+            $( "#nodeSize" ).val( nodeSize[0] + " - " + nodeSize[1] );       
+            $( "#labelSize" ).val( labelSize );
+            $( "#labelThreshold" ).val( labelThreshold );            
+            $( "#edgeWidth" ).val( edgeWidth );            
+
+            sliderNodeSize.slider("values",nodeSize);
+            sliderEdgeWidth.slider("value",edgeWidth);
+            sliderLabelSize.slider("value", labelSize);
+            sliderLabelThreshold.slider("value",labelThreshold); 
+        }
+        
+        
+        // Change the GEXF file and show the currently-selected one in the header bar
+        function loadGEXF(filename, x) {
+            $("td").removeClass("current")  // Remove class "current" from all table cells 
+            $(x).addClass('current');       // Add the class to only the current cell 
+            clearGEXF();                    // Clear the current graph 
+            setGEXF(filename);              // Load the new graph 
+            sliderDefaults();               // Set the values to their defaults 
+        }
+
+        
+    </script>
+</head>
+<body>
+    <!-- This is the list of GEXF files to be displayed --> 
+    <table class="nav"><tr>
+        <td onclick="loadGEXF('gexf/Size_comparison.gexf', this)">Size Comparison</td>
+        <td class="current" onclick="loadGEXF('gexf/Homo_sapiens.gexf', this)">Homo sapiens</td>
+        <td onclick="loadGEXF('gexf/Organismal.gexf', this)">Organismal</td>
+        <td onclick="loadGEXF('gexf/modENCODE.gexf', this)">modENCODE</td>
+    </tr></table>
+    <!-- Introductory text --> 
+    <h2>Graphical display of BioProject data</h2>
+    <p>The display below shows a graphical representation of data from NCBI's BioProjects. In this representation, each node represents a BioProject. The size of each node is proportional to the amount of associated SRA data. Hover over a node for more information on the project and click on it to visit that BioProject in a new window. <em>This browser does not work with Internet Explorer.</em>
+    <p>Holding your mouse over a project will display statistics on that project. To zoom in, scroll the mouse wheel in. To move around, click and drag. 
+    <p>There is more information below the diagram. <a href="#graphContainer">Click here to center the graph.</a>
+    
+    <!-- The graph itself --> 
+    <div class="sigma-parent" id="gexf-parent">
+        <a id="graphContainer" />
+        <div class="sigma-expand" id="gexf-container"></div>
+        <div class="hidden" id="overlay_1"><div class="overOpaque">    
+            <img title="Click to minimize settings window." class="close" src="css/close.png" onclick="showOverlay(false)" />
+            <img title="Click to return all settings to default." class="reset" src="css/reset.png" onclick="sliderDefaults()" />
+            <table class="settings">
+                <tr>
+                    <td>
+                        <label for="nodeSize">Set minimum and maximum node size:</label><input type="text" id="nodeSize" class="slider-text" />
+                        <div class="slider-container" id="slider-node-size"></div>
+                    </td>
+                    <td>
+                        <label for="edgeWidth">Set edge width:</label><input type="text" id="edgeWidth" class="slider-text" />
+                        <div class="slider-container" id="slider-edge-width"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="labelThreshold">Set node size at which text appears:</label> 
+                        <input type="text" id="labelThreshold" class="slider-text"/>
+                        <div class="slider-container" id="slider-label-threshold"></div>
+                    </td>
+                    <td>
+                        <label for="labelSize">Set label font size:</label><input type="text" id="labelSize" class="slider-text" />
+                        <div class="slider-container" id="slider-label-size"></div>
+                    </td>
+                </tr>
+                <tr> 
+                    <td>
+                        <strong>Zoom controls:</strong>
+                        <img title="Click to zoom in", class="zoomBtn", src="css/zoomIn.png", 
+                        onclick="zoomControl('in', $('#gexf-container').width(), $('#gexf-container').height())" />
+                        &nbsp;
+                        <img title="Click to zoom out", class="zoomBtn", src="css/zoomOut.png", 
+                        onclick="zoomControl('out', $('#gexf-container').width(), $('#gexf-container').height())" /> 
+                    </td>
+                </tr>
+            </table>
+        </div></div>
+        <div class="overlay-trigger" id="overlayText" onclick="showOverlay(true)">(click to change graph settings)</div>
+    </div>
+    
+    <!-- Closing comments --> 
+    <h3>More information</h3>
+    <p>You are viewing a graph file in your web browser. The file is a <a href="http://gexf.net/format/">GEXF graph</a> and the in-browser visualization is powered by <a href="http://sigmajs.org/">sigma.js</a>. The graph was created by downloading and processing BioProject data using Python. The graph layout was performed in <a href="https://gephi.org">Gehpi</a>. If you want more features (ability to edit, recolor nodes, etc.), you can open the original graph file locally with Gephi. 
+    <p>Because this in-browser visualization system only displays a graph file generated from another program, there is not a good way to display a legend. Features such as these can best be achieved by opening the graph file in Gephi.
+
+
+<br />
+<br />
+    <!-- These are the JavaScript calls. Once everything else is done, the listener is loaded to actually start the ball rolling. -->
+    <script src="js/sigma.min.js"               type="text/javascript"></script>
+    <script src="js/sigma.parseGexf.min.js"     type="text/javascript"></script>
+    <script src="js/graph_settings.js"          type="text/javascript"></script>
+    <script>
+    function showOverlay(status) {
+        if (status) {   
+            document.getElementById('overlayText').className='hidden';
+            document.getElementById('overlay_1').className='simple-overlay';
+        } else {
+            document.getElementById('overlay_1').className='hidden';
+            document.getElementById('overlayText').className='overlay-trigger';
+            }
+    }
+
+    // Node diameter 
+    $(function() {
+        sliderNodeSize = $( "#slider-node-size" ).slider({
+            range: true, min: 0, max: 100, step: .5, values: nodeSize,
+            slide: function( event, ui ) {
+                $( "#nodeSize" ).val( "" + ui.values[ 0 ] + " - " + ui.values[ 1 ] );
+                setGraphProperties({minNodeSize:ui.values[0], maxNodeSize:ui.values[1]});
+            }
+        });
+        sliderNodeSize.slider("values",nodeSize);
+
+    });
+    // Edge width 
+    $(function() {
+        sliderEdgeWidth = $( "#slider-edge-width" ).slider({
+            range: false, min: 0, max: 20, step: 1,
+            slide: function( event, ui ) {
+                $( "#edgeWidth" ).val(ui.value);
+                setGraphProperties({minEdgeSize:ui.value, maxEdgeSize:ui.value});
+            }
+        });
+        sliderEdgeWidth.slider("value",edgeWidth);
+    });    
+    // Node size at which labels are persistently displayed 
+    $(function() {
+        sliderLabelThreshold = $( "#slider-label-threshold" ).slider({
+            range: false, min: 0, max: 50, step: 1,
+            slide: function( event, ui ) {
+                $( "#labelThreshold" ).val(ui.value);
+                setDrawingProperties({labelThreshold: ui.value});
+            }
+        });
+        sliderLabelThreshold.slider("value",labelThreshold); 
+    });  
+
+    // Font size for the labels
+    $(function() {
+        sliderLabelSize = $( "#slider-label-size" ).slider({
+            range: false, min: 5, max: 30, step: 1,
+            slide: function( event, ui ) {
+                $( "#labelSize" ).val(ui.value); // Display the new size number 
+                setDrawingProperties({defaultLabelSize: ui.value});
+            }
+        });
+        sliderLabelSize.slider("value", labelSize);
+    });
+
+
+    </script>
+    <script type="text/javascript">
+        // Generate a click event on the table cell marked as "current" (navigation function) 
+        function clickCurrent() {
+            $('td[class="current"]').click();
+        }
+
+        document.addEventListener('DOMContentLoaded', clickCurrent(), false);
+        document.addEventListener('DOMContentLoaded', bindActions(), false);
+        
+    </script>
+    <!-- This section handles the sliders that allow in-browser adjustments to teh graph appearance --> 
+</body>
+</html>
