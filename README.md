@@ -4,7 +4,21 @@ Visualize projects and associated metadata in NCBI's BioProject database.
 
 This set of Python scripts starts with a list of BioProject IDs and downloads those projects along with all related projects (parents and children). The data are stored in an SQlite database and then can be exported into either a simple CSV table or, more powerfully, into a [GEXF](http://gexf.net/format/) file. This file can be opened and edited via [Gephi](http://gephi.org/). 
 
-## Workflow: 
+## Demo
+
+To view a demo of the sort of end result that can be generated with this tool, clone this repository and navigate to "browser_vis_demo". Open the file "index.html" in Firefox and you should be able to view several example graphs. 
+
+## Requirements
+
+This runs in Python 2.x. Specific python modules required (all should be installable through pip):
+
+* sqlalchemy
+* dateutils 
+* urllib3
+
+These should all install through something along the lines of: `sudo pip install sqlalchemy dateutils urllib3`. 
+
+## Workflow
 
 This is an example workflow. 
 
