@@ -1,8 +1,8 @@
 # Download a defined list of BioProjects.
-# October, 2012. Chris Wellington
+# December, 2012. Chris Wellington
 
 import Queue
-import logging 
+import logging
 import os
 import lib.eutils as eutils
 import lib.bp_database as bp_database
@@ -36,8 +36,8 @@ ch = logging.StreamHandler();       ch.setLevel(getattr(logging, term_loglevel))
 
 ch_format = logging.Formatter(fmt='%(name)-15s: %(levelname)-8s %(threadName)-10s %(message)s')
 fh_format = logging.Formatter(fmt='%(asctime)s %(levelname)-8s %(threadName)-10s %(name)-15s: %(message)s', datefmt='%m-%d %H:%M:%S')
-fh.setFormatter(fh_format); logger.addHandler(fh); 
-ch.setFormatter(ch_format); logger.addHandler(ch);  
+fh.setFormatter(fh_format); logger.addHandler(fh);
+ch.setFormatter(ch_format); logger.addHandler(ch);
 logger.info('#####-----  Program to download a defined list of BioProjects launched  -----#####')
 
 # Instantiate objects 

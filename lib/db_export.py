@@ -4,18 +4,18 @@
 import csv                              # Parse CSV input file (NCBI data report)
 import datetime                         # Work with dates 
 import dateutil.relativedelta           # Add one month to the final date in the  time series 
+import logging 
 from sqlalchemy import Table, Column, Integer, String, MetaData, ForeignKey, create_engine, select 
 from collections import defaultdict     # Quick way to get a dictionary of lists
 
+logger = logging.getLogger(__name__)
+
 class db_export:
-    "Provide access to bioproject data for various exporters"
-    ####  Variables used within the class ####
-        # _atts_genome
-        # _atts_bp 
-        # _edges         
+    """Provide access to bioproject data for exporters."""
     
     ###############################################
     def __init__(self, db_file):
+        logger.debug("Initializing exporter module")
         self._db_file       = db_file           # The database of BioProject data 
 
     ##########################################################################################
@@ -38,25 +38,18 @@ class db_export:
         
     
     def run_all(self):
-        self.get_db_rows()
-        self.parse_genome_hierarchy()
+        """Run all export functions and return the resulting data in a dictionary."""
+        self.get_db_rows()              # Export the database rows to class variables. 
+        self.parse_genome_hierarchy()   # Process the hierarchies that place submission projects under organism (genome) projects. 
         
-        tmp_dict = {}
-        #tmp_dict['report_dates']            = self._report_dates
-        #tmp_dict['report_values']           = self._report_values
-        tmp_dict['attributes_genome']       = self._atts_genome
-        tmp_dict['attributes_bp']           = self._atts_bp
-        tmp_dict['hierarchy_genome']        = self._hierarchy_genome
-        tmp_dict['edges']                   = self._edges
-        tmp_dict['data_stats_cols']         = self._data_stats_cols
-        
+        tmp_dict = {'attributes_genome':self._atts_genome, 'attributes_bp':self._atts_bp, 'hierarchy_genome':self._hierarchy_genome, 'edges':self._edges, 'data_stats_cols':self._data_stats_cols}
         return tmp_dict 
     
     ##########################################################################################
     ##  Get existing information #############################################################
     ##########################################################################################
-    # Fetch data from the database, return everything in dictionaries  
     def get_db_rows(self): 
+        """Fetch data from the database, exporting everything to class dictionaries (instead of returning values)."""
         # Establish the db connection  
         engine = create_engine('sqlite:///' + self._db_file, echo=False)
         metadata = MetaData(); metadata.reflect(engine)
@@ -65,10 +58,9 @@ class db_export:
         tbl_link                = Table("tbl_link",  metadata, autoload=True)
         conn = engine.connect()
 
-        # Get all unique data_stats, create a dictionary and a set of the column headers 
-        unique_cols = set()
-        data_stats = defaultdict(dict)
-        
+        # All data statistics are fetched from BioProject. We want every datatype (database + unit) in its own column but do not know the datatypes a priori.
+        # Column headers will be formed from database name and units. 
+        unique_cols = set(); data_stats = defaultdict(dict)
         s = select([tbl_stats.c.bp_id, tbl_stats.c.db, tbl_stats.c.unit, tbl_stats.c.val]).distinct()
         for line in conn.execute(s):
             col_header = str(line[1])+": "+str(line[2]) 
@@ -82,11 +74,9 @@ class db_export:
         for line in conn.execute(s):
             tmp_hash = {}
             for col in line.keys():
-                # The BioProject ID ("ID") will become the new dict key - capture it.  
-                if ( col == 'bp_id' ):
-                    bp_id = str(line[col])
-                elif ( line[col] is not None ):
-                    tmp_hash[col] = str(line[col])
+                # Capture the BioProject ID ("ID") as the new key of the dictionary.
+                if ( col == 'bp_id' ):          bp_id = str(line[col])
+                elif ( line[col] is not None ): tmp_hash[col] = str(line[col])
             # Append most recent Genome
             atts_genome[bp_id] = tmp_hash
 
@@ -96,15 +86,11 @@ class db_export:
         for line in conn.execute(s):
             tmp_hash = {}
             for col in line.keys():
-                if (  col == 'bp_id' ):
-                    bp_id = str(line[col])
-                elif ( line[col] is not None ):
-                    tmp_hash[col] = unicode(line[col])
+                if (  col == 'bp_id' ):         bp_id = str(line[col])
+                elif ( line[col] is not None ): tmp_hash[col] = unicode(line[col])
                 else: 
-                    if line['project_type'] is not None:
-                        tmp_hash[col] = unicode(line['project_type'])
-                    else: 
-                        tmp_hash[col] = None 
+                    if line['project_type'] is not None:    tmp_hash[col] = unicode(line['project_type'])
+                    else:                                   tmp_hash[col] = None 
             
             if bp_id in data_stats:
                 for stat in data_stats[bp_id].keys():
@@ -113,12 +99,11 @@ class db_export:
             # Append most recent BioProject 
             atts_bp[bp_id] = tmp_hash
             
-            
         # Get all edges and transform into a dictionary 
         s = select([tbl_link.c.id_from, tbl_link.c.id_to]).distinct()
         edges = [[str(row[0]), str(row[1])] for row in conn.execute(s)]
         
-        # Exports 
+        # Exports - all values are exported to class variables instead of being returned. 
         self._atts_genome       = atts_genome
         self._atts_bp           = atts_bp
         self._edges             = edges            
@@ -141,15 +126,11 @@ class db_export:
             for col in self._data_stats_cols:
                 tmp_att_dict[col] = 0 
                 for bp_id in bp_list:
-                    #try: print "Data found for col " + col + " and bp " + str(bp_id) + ":\t " + str(self._atts_bp[bp_id][col])
-                    #except: pass
                     if col in self._atts_bp[bp_id]:
                         try:    tmp_att_dict[col] = tmp_att_dict[col] + float(self._atts_bp[bp_id][col])
-                        except: print "Found data but unable to use it. Sorry!"
-
+                        except: logger.error("Data statistics found, but could not be used. BioProject: {0}".format(bp_id))
 
             # Add the new Genome data to the report_values 
-            #self._report_values[genome_id]  = tmp_report_dict 
             self._atts_genome[genome_id].update(tmp_att_dict)
         
         self._hierarchy_genome = hierarchy_genome 
